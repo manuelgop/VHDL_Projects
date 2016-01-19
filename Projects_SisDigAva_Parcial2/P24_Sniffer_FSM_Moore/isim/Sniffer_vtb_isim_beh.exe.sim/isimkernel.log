@@ -1,0 +1,29 @@
+Command line:
+   Sniffer_vtb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58183
+
+Wed Oct 30 13:48:51 2013
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 680.62 Meg
+
+ Total Signals          : 11
+ Total Nets             : 26
+ Total Signal Drivers   : 6
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 5
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 510
+Total Line Count : 40
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 837.915 Meg
+
+Wed Oct 30 13:49:34 2013
+

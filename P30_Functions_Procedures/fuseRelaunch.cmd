@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Projectos_VHDL/P30_Functions_Procedures/Proc1_isim_beh.exe" -prj "C:/Projectos_VHDL/P30_Functions_Procedures/Proc1_beh.prj" "work.Proc1" 

@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P03_Full_Adder/Full_Adder.xst" -ofn "C:/Projectos_VHDL/P03_Full_Adder/Full_Adder.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P03_Full_Adder/Full_Adder.xst" -ofn "C:/Projectos_VHDL/P03_Full_Adder/Full_Adder.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P03_Full_Adder/Full_Adder.xst" -ofn "C:/Projectos_VHDL/P03_Full_Adder/Full_Adder.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P03_Full_Adder/Full_Adder.xst" -ofn "C:/Projectos_VHDL/P03_Full_Adder/Full_Adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Full_Adder.ucf -p xc3s100e-cp132-5 Full_Adder.ngc Full_Adder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Full_Adder_map.ncd Full_Adder.ngd Full_Adder.pcf 
+par -w -intstyle ise -ol high -t 1 Full_Adder_map.ncd Full_Adder.ncd Full_Adder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Full_Adder.twx Full_Adder.ncd -o Full_Adder.twr Full_Adder.pcf -ucf Full_Adder.ucf 
+bitgen -intstyle ise -f Full_Adder.ut Full_Adder.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P03_Full_Adder/Full_Adder.xst" -ofn "C:/Projectos_VHDL/P03_Full_Adder/Full_Adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Full_Adder.ucf -p xc3s100e-cp132-5 Full_Adder.ngc Full_Adder.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Full_Adder_map.ncd Full_Adder.ngd Full_Adder.pcf 
+par -w -intstyle ise -ol high -t 1 Full_Adder_map.ncd Full_Adder.ncd Full_Adder.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Full_Adder.twx Full_Adder.ncd -o Full_Adder.twr Full_Adder.pcf -ucf Full_Adder.ucf 
+bitgen -intstyle ise -f Full_Adder.ut Full_Adder.ncd 

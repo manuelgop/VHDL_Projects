@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Projectos_VHDL\P18_Barrel_Shifters\Barrel_Shifters.ncd
+OUTFILE=C:\Projectos_VHDL\P18_Barrel_Shifters\Barrel_Shifters.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Projectos_VHDL\P18_Barrel_Shifters
+LICENSE=WebPack
+USER_INFO=200310400_0_0_151

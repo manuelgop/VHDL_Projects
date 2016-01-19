@@ -1,0 +1,20 @@
+//! **************************************************************************
+// Written by: Map P.68d on Wed Oct 23 18:44:54 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Clk100MHz" LOCATE = SITE "B8" LEVEL 1;
+COMP "Rlights<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "Rturn" LOCATE = SITE "P11" LEVEL 1;
+COMP "Rlights<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "Rlights<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "Lturn" LOCATE = SITE "K3" LEVEL 1;
+COMP "Rst" LOCATE = SITE "G12" LEVEL 1;
+COMP "Llights<0>" LOCATE = SITE "N4" LEVEL 1;
+COMP "Llights<1>" LOCATE = SITE "P4" LEVEL 1;
+COMP "Llights<2>" LOCATE = SITE "G1" LEVEL 1;
+COMP "Hazard" LOCATE = SITE "L3" LEVEL 1;
+NET "Clk100MHz_BUFGP/IBUFG" BEL "Clk100MHz_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+SCHEMATIC END;
+

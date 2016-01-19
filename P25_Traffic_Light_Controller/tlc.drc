@@ -1,0 +1,8 @@
+Release 14.6 Drc P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Oct 31 08:19:33 2013
+
+drc -z tlc.ncd tlc.pcf
+
+DRC detected 0 errors and 0 warnings.

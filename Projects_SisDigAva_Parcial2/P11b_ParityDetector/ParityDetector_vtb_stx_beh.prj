@@ -1,0 +1,2 @@
+vhdl isim_temp "ParityDetector.vhd"
+vhdl isim_temp "ParityDetector_vtb.vhd"

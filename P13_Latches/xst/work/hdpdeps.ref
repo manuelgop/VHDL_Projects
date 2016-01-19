@@ -1,0 +1,6 @@
+V3 3
+FL C:/Manuel/P13_Latches/Latches.vhd 2013/09/18.16:36:10 P.58f
+EN work/Latches 1379540176 FL C:/Manuel/P13_Latches/Latches.vhd \
+      PB ieee/std_logic_1164 1364358218
+AR work/Latches/Behavioral 1379540177 \
+      FL C:/Manuel/P13_Latches/Latches.vhd EN work/Latches 1379540176

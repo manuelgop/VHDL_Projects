@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Projects_SisEmbMir/P16_Counters/Counters.xst" -ofn "D:/Projects_SisEmbMir/P16_Counters/Counters.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisEmbMir/P16_Counters/Counters.xst" -ofn "D:/Projects_SisEmbMir/P16_Counters/Counters.syr" 

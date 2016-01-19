@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Projectos_VHDL/Contadordeunos/ContadorUnos.xst" -ofn "C:/Projectos_VHDL/Contadordeunos/ContadorUnos.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/Contadordeunos/ContadorUnos.xst" -ofn "C:/Projectos_VHDL/Contadordeunos/ContadorUnos.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/Contadordeunos/ContadorUnos.xst" -ofn "C:/Projectos_VHDL/Contadordeunos/ContadorUnos.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/Contadordeunos/ContadorUnos.xst" -ofn "C:/Projectos_VHDL/Contadordeunos/ContadorUnos.syr" 

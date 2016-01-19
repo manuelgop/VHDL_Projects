@@ -1,0 +1,15 @@
+# Output products list for <IP_Core>
+IP_Core.asy
+IP_Core.gise
+IP_Core.ngc
+IP_Core.sym
+IP_Core.v
+IP_Core.veo
+IP_Core.xco
+IP_Core.xise
+IP_Core\doc\cordic_ds249.pdf
+IP_Core\doc\cordic_v4_0_vinfo.html
+IP_Core_flist.txt
+IP_Core_readme.txt
+IP_Core_xmdf.tcl
+_xmsgs\pn_parser.xmsgs

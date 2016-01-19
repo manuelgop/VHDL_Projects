@@ -1,0 +1,15 @@
+V3 7
+FL C:/Projectos_VHDL/P_29_Memory_IPCore/ipcore_dir/Memory.vhd 2013/11/13.17:31:16 P.68d
+EN work/Memory 1384386269 \
+      FL C:/Projectos_VHDL/P_29_Memory_IPCore/ipcore_dir/Memory.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/Memory/Memory_a 1384386270 \
+      FL C:/Projectos_VHDL/P_29_Memory_IPCore/ipcore_dir/Memory.vhd \
+      EN work/Memory 1384386269
+FL C:/Projectos_VHDL/P_29_Memory_IPCore/Memory_IP.vhd 2013/11/13.17:44:26 P.68d
+EN work/Memory_IP 1384386271 \
+      FL C:/Projectos_VHDL/P_29_Memory_IPCore/Memory_IP.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/Memory_IP/Behavioral 1384386272 \
+      FL C:/Projectos_VHDL/P_29_Memory_IPCore/Memory_IP.vhd EN work/Memory_IP 1384386271 \
+      CP Memory

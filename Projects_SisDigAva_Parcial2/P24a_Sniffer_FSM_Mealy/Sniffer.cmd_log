@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/ProySisDigAva/P22a_Sniffer_FSM_Mealy/Sniffer.xst" -ofn "D:/ProySisDigAva/P22a_Sniffer_FSM_Mealy/Sniffer.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P24a_Sniffer_FSM_Mealy/Sniffer.xst" -ofn "D:/Projects_SisDigAva/P24a_Sniffer_FSM_Mealy/Sniffer.syr" 

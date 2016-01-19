@@ -1,0 +1,14 @@
+#Comment
+#Define input pines
+
+NET "I<0>" LOC = P11;#SW0
+NET "I<1>" LOC = L3;#SW1
+NET "I<2>" LOC = K3;#SW2
+NET "I<3>" LOC = B4;#SW3
+
+#DEFINE the select pines
+NET "Sel<1>" LOC = N3;#SW7
+NET "SEL<0>" LOC = E2;#SW6
+
+#DEFINE output pines
+NET "Y" LOC =M5;

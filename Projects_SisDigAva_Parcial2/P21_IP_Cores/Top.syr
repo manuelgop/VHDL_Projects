@@ -1,0 +1,379 @@
+Release 14.6 - xst P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: Top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\Projects_SisDigAva\P21_IP_Cores\ipcore_dir\IP_Core.v" into library work
+Parsing module <IP_Core>.
+Parsing VHDL file "D:\Projects_SisDigAva\P21_IP_Cores\Top.vhd" into library work
+Parsing entity <Top>.
+Parsing architecture <Behavioral> of entity <top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Top> (architecture <Behavioral>) from library <work>.
+Going to verilog side to elaborate module IP_Core
+
+Elaborating module <IP_Core>.
+Back to vhdl to continue elaboration
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Top>.
+    Related source file is "D:\Projects_SisDigAva\P21_IP_Cores\Top.vhd".
+    Summary:
+	no macro.
+Unit <Top> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/IP_Core.ngc>.
+Reading Secure Unit <blk00000022>.
+Loading core <IP_Core> for timing and area information for instance <U1>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Top> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 86
+#      GND                         : 4
+#      INV                         : 13
+#      LUT2                        : 11
+#      LUT3                        : 7
+#      LUT4                        : 2
+#      MUXCY                       : 21
+#      VCC                         : 4
+#      XORCY                       : 24
+# FlipFlops/Latches                : 35
+#      FD                          : 9
+#      FDE                         : 4
+#      FDRE                        : 22
+# Shift Registers                  : 4
+#      SRLC16E                     : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 8
+#      OBUF                        : 6
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              35  out of  18224     0%  
+ Number of Slice LUTs:                   37  out of   9112     0%  
+    Number used as Logic:                33  out of   9112     0%  
+    Number used as Memory:                4  out of   2176     0%  
+       Number used as SRL:                4
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     72
+   Number with an unused Flip Flop:      37  out of     72    51%  
+   Number with an unused LUT:            35  out of     72    48%  
+   Number of fully used LUT-FF pairs:     0  out of     72     0%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of    232     6%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk100MHz                          | BUFGP                  | 39    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.768ns (Maximum Frequency: 265.403MHz)
+   Minimum input arrival time before clock: 1.903ns
+   Maximum output required time after clock: 3.597ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk100MHz'
+  Clock period: 3.768ns (frequency: 265.403MHz)
+  Total number of paths / destination ports: 267 / 34
+-------------------------------------------------------------------------
+Delay:               3.768ns (Levels of Logic = 8)
+  Source:            U1/blk0000001f (FF)
+  Destination:       U1/blk00000014 (FF)
+  Source Clock:      Clk100MHz rising
+  Destination Clock: Clk100MHz rising
+
+  Data Path: U1/blk0000001f to U1/blk00000014
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.447   0.819  blk0000001f (sig0000003a)
+     LUT2:I0->O            1   0.203   0.684  blk00000073 (sig0000001e)
+     begin scope: 'U1/blk00000022:A<2>'
+     SEC:in->out           1   0.203   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.172   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           1   0.019   0.000  sec_inst (sec_net)
+     SEC:in->out           5   0.180   0.715  sec_inst (sec_net)
+     end scope: 'U1/blk00000022:S<5>'
+     LUT4:I3->O            1   0.205   0.000  blk00000069 (sig00000018)
+     FDRE:D                    0.102          blk00000016
+    ----------------------------------------
+    Total                      3.768ns (1.550ns logic, 2.218ns route)
+                                       (41.1% logic, 58.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk100MHz'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              1.903ns (Levels of Logic = 2)
+  Source:            InA<7> (PAD)
+  Destination:       U1/blk0000001e (FF)
+  Destination Clock: Clk100MHz rising
+
+  Data Path: InA<7> to U1/blk0000001e
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  InA_7_IBUF (InA_7_IBUF)
+     begin scope: 'U1:x_in<7>'
+     FD:D                      0.102          blk0000001e
+    ----------------------------------------
+    Total                      1.903ns (1.324ns logic, 0.579ns route)
+                                       (69.6% logic, 30.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk100MHz'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 2)
+  Source:            U1/blk0000000a (FF)
+  Destination:       OutY<3> (PAD)
+  Source Clock:      Clk100MHz rising
+
+  Data Path: U1/blk0000000a to OutY<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             1   0.447   0.579  blk0000000a (x_out<3>)
+     end scope: 'U1:x_out<3>'
+     OBUF:I->O                 2.571          OutY_3_OBUF (OutY<3>)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk100MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk100MHz      |    3.768|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.10 secs
+ 
+--> 
+
+Total memory usage is 210836 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

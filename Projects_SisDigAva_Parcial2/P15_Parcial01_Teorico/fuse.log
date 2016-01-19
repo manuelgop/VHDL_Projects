@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/Projects_SisDigAva/P15_Parcial01_Teorico/Teorico_vtb_isim_beh.exe -prj D:/Projects_SisDigAva/P15_Parcial01_Teorico/Teorico_vtb_beh.prj work.Teorico_vtb 
+ISim P.68d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Projects_SisDigAva/P15_Parcial01_Teorico/Teorico.vhd" into library work
+Parsing VHDL file "D:/Projects_SisDigAva/P15_Parcial01_Teorico/Teorico_vtb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 121012 KB
+Fuse CPU Usage: 296 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling architecture behavioral of entity Teorico [teorico_default]
+Compiling architecture behavior of entity teorico_vtb
+Time Resolution for simulation is 1ps.
+Compiled 6 VHDL Units
+Built simulation executable D:/Projects_SisDigAva/P15_Parcial01_Teorico/Teorico_vtb_isim_beh.exe
+Fuse Memory Usage: 134884 KB
+Fuse CPU Usage: 452 ms

@@ -1,0 +1,58 @@
+V3 39
+FL C:/Projectos_VHDL/P17_Structural_Clock/Clk1Hz.vhd 2013/10/25.16:48:08 P.68d
+EN work/Clk1Hz 1382752979 FL C:/Projectos_VHDL/P17_Structural_Clock/Clk1Hz.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/Clk1Hz/Behavioral 1382752980 \
+      FL C:/Projectos_VHDL/P17_Structural_Clock/Clk1Hz.vhd EN work/Clk1Hz 1382752979
+FL C:/Projectos_VHDL/P17_Structural_Clock/Clock.vhd 2013/10/25.21:02:48 P.68d
+EN work/Clock 1382752997 FL C:/Projectos_VHDL/P17_Structural_Clock/Clock.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/Clock/Behavioral 1382752998 \
+      FL C:/Projectos_VHDL/P17_Structural_Clock/Clock.vhd EN work/Clock 1382752997 \
+      CP Clk1Hz CP Cont0a9 CP Cont0a5 CP Cont0a23 CP RefreshDisplay CP Cont0a3 \
+      CP Mux4to1 CP SelAnodo CP DecBCD7seg
+FL C:/Projectos_VHDL/P17_Structural_Clock/Cont0a23.vhd 2013/10/25.17:23:48 P.68d
+EN work/Cont0a23 1382752985 \
+      FL C:/Projectos_VHDL/P17_Structural_Clock/Cont0a23.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/Cont0a23/Behavioral 1382752986 \
+      FL C:/Projectos_VHDL/P17_Structural_Clock/Cont0a23.vhd EN work/Cont0a23 1382752985
+FL C:/Projectos_VHDL/P17_Structural_Clock/Cont0a3.vhd 2013/10/25.12:52:19 P.68d
+EN work/Cont0a3 1382752989 FL C:/Projectos_VHDL/P17_Structural_Clock/Cont0a3.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/Cont0a3/Behavioral 1382752990 \
+      FL C:/Projectos_VHDL/P17_Structural_Clock/Cont0a3.vhd EN work/Cont0a3 1382752989
+FL C:/Projectos_VHDL/P17_Structural_Clock/Cont0a5.vhd 2013/10/25.12:44:01 P.68d
+EN work/Cont0a5 1382752983 FL C:/Projectos_VHDL/P17_Structural_Clock/Cont0a5.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/Cont0a5/Behavioral 1382752984 \
+      FL C:/Projectos_VHDL/P17_Structural_Clock/Cont0a5.vhd EN work/Cont0a5 1382752983
+FL C:/Projectos_VHDL/P17_Structural_Clock/Cont0a9.vhd 2013/10/25.12:26:17 P.68d
+EN work/Cont0a9 1382752981 FL C:/Projectos_VHDL/P17_Structural_Clock/Cont0a9.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/Cont0a9/Behavioral 1382752982 \
+      FL C:/Projectos_VHDL/P17_Structural_Clock/Cont0a9.vhd EN work/Cont0a9 1382752981
+FL C:/Projectos_VHDL/P17_Structural_Clock/DecBCD7seg.vhd 2013/10/25.17:22:59 P.68d
+EN work/DecBCD7seg 1382752995 \
+      FL C:/Projectos_VHDL/P17_Structural_Clock/DecBCD7seg.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/DecBCD7seg/Behavioral 1382752996 \
+      FL C:/Projectos_VHDL/P17_Structural_Clock/DecBCD7seg.vhd EN work/DecBCD7seg 1382752995
+FL C:/Projectos_VHDL/P17_Structural_Clock/Mux4to1.vhd 2013/10/20.19:32:07 P.68d
+EN work/Mux4to1 1382752991 FL C:/Projectos_VHDL/P17_Structural_Clock/Mux4to1.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/Mux4to1/Behavioral 1382752992 \
+      FL C:/Projectos_VHDL/P17_Structural_Clock/Mux4to1.vhd EN work/Mux4to1 1382752991
+FL C:/Projectos_VHDL/P17_Structural_Clock/RefreshDisplay.vhd 2013/10/25.16:54:01 P.68d
+EN work/RefreshDisplay 1382752987 \
+      FL C:/Projectos_VHDL/P17_Structural_Clock/RefreshDisplay.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/RefreshDisplay/Behavioral 1382752988 \
+      FL C:/Projectos_VHDL/P17_Structural_Clock/RefreshDisplay.vhd \
+      EN work/RefreshDisplay 1382752987
+FL C:/Projectos_VHDL/P17_Structural_Clock/SelAnodo.vhd 2013/10/25.17:02:33 P.68d
+EN work/SelAnodo 1382752993 \
+      FL C:/Projectos_VHDL/P17_Structural_Clock/SelAnodo.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/SelAnodo/Behavioral 1382752994 \
+      FL C:/Projectos_VHDL/P17_Structural_Clock/SelAnodo.vhd EN work/SelAnodo 1382752993

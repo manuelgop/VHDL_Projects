@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Clock</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Clock.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/Clock.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Clock/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Clock.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/Clock.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Clk1Hz</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Clk1Hz.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/Clk1Hz.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Clk1Hz/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Clk1Hz.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/Clk1Hz.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Cont0a23</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a23.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a23.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Cont0a23/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a23.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a23.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Cont0a3</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a3.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a3.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Cont0a3/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a3.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a3.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Cont0a5</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a5.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a5.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Cont0a5/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a5.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a5.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Cont0a9</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a9.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a9.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Cont0a9/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a9.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a9.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DecBCD7Seg</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/DecBCD7Seg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/DecBCD7Seg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DecBCD7Seg/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/DecBCD7Seg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/DecBCD7Seg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Mux4to1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Mux4to1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/Mux4to1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Mux4to1/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Mux4to1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/Mux4to1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/RefreshDisplay</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/RefreshDisplay.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/RefreshDisplay.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/RefreshDisplay/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/RefreshDisplay.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/RefreshDisplay.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/SelAnodo</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/SelAnodo.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/SelAnodo.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/SelAnodo/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/SelAnodo.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Projectos_VHDL/P17_Structural_Clock_Finished/SelAnodo.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">Valor&lt;3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+</messages>
+

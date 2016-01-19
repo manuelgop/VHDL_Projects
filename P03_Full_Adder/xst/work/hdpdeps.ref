@@ -1,0 +1,6 @@
+V3 3
+FL C:/Projectos_VHDL/P03_Full_Adder/Full_Adder.vhd 2013/08/21.23:01:02 P.68d
+EN work/Full_Adder 1377144070 FL C:/Projectos_VHDL/P03_Full_Adder/Full_Adder.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/Full_Adder/Full_Adder_Arch 1377144071 \
+      FL C:/Projectos_VHDL/P03_Full_Adder/Full_Adder.vhd EN work/Full_Adder 1377144070

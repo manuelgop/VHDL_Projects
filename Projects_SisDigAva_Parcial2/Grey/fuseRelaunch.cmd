@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/Grey/Grey_isim_beh.exe" -prj "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/Grey/Grey_beh.prj" "work.Grey" 

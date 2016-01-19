@@ -1,0 +1,13 @@
+#PACE: Start of PACE I/O Pin Assignments
+#Pins para la tableta Nexys 3
+NET "Stby"         LOC = "T10";
+NET "Test"         LOC = "T9";
+#Forzar a que un Clock se pueda conectar a una señal que no es Clock
+#NET "KeyClock" CLOCK_DEDICATED_ROUTE;
+NET "Clk"           LOC = "V10";
+NET "Red1"          LOC = "U16"; 
+NET "Yellow1"       LOC = "V16"; 
+NET "Green1"        LOC = "U15"; 
+NET "Red2"          LOC = "N11"; 
+NET "Yellow2"       LOC = "R11"; 
+NET "Green2"        LOC = "T11"; 

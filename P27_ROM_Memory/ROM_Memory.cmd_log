@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P27_ROM_Memory/ROM_Memory.xst" -ofn "D:/Projects_SisDigAva/P27_ROM_Memory/ROM_Memory.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P27_ROM_Memory/ROM_Memory.xst" -ofn "D:/Projects_SisDigAva/P27_ROM_Memory/ROM_Memory.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P27_ROM_Memory/ROM_Memory.xst" -ofn "D:/Projects_SisDigAva/P27_ROM_Memory/ROM_Memory.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P27_ROM_Memory/ROM_Memory.xst" -ofn "D:/Projects_SisDigAva/P27_ROM_Memory/ROM_Memory.syr" 

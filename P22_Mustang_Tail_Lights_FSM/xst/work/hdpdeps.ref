@@ -1,0 +1,8 @@
+V3 3
+FL C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.vhd 2013/10/23.18:34:53 P.68d
+EN work/Mustang_FSM 1382571882 \
+      FL C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/Mustang_FSM/Behavioral 1382571883 \
+      FL C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.vhd \
+      EN work/Mustang_FSM 1382571882

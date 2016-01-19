@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Wed Oct 02 15:50:39 2013
+# Process ID: 6328
+# Log file: D:/Projects_SisDigAva/P17_SN74LS163A/planAhead_run_1/planAhead.log
+# Journal file: D:/Projects_SisDigAva/P17_SN74LS163A/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/Projects_SisDigAva/P17_SN74LS163A/pa.fromNetlist.tcl
+startgroup
+set_property package_pin V10 [get_ports Clk100MHz]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports Rst]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports TC]
+endgroup
+set_property package_pin "" [get_ports [list  {Anode[3]}]]
+startgroup
+set_property package_pin P17 [get_ports {Anode[3]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {Anode[2]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {Anode[1]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {Anode[1]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {Anode[0]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {DataIn[0]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {DataIn[1]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {DataIn[0]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {DataIn[1]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {DataIn[2]}]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports {DataIn[3]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports Rst]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports nPE]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports CET]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports CEP]
+endgroup
+save_constraints

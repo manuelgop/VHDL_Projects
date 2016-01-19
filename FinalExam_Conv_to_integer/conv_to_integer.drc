@@ -1,0 +1,8 @@
+Release 14.6 Drc P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Dec 02 22:19:51 2013
+
+drc -z Conv_to_integer.ncd Conv_to_integer.pcf
+
+DRC detected 0 errors and 0 warnings.

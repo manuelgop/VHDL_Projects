@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "C:/SisDigAva/Segment7_HDL/Seg7_VHDL.xst" -ofn "C:/SisDigAva/Segment7_HDL/Seg7_VHDL.syr" 
+xst -intstyle ise -ifn "C:/SisDigAva/Segment7_HDL/Seg7_VHDL.xst" -ofn "C:/SisDigAva/Segment7_HDL/Seg7_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-2L Seg7_VHDL.ngc Seg7_VHDL.ngd  
+map -intstyle ise -p xc7a100t-csg324-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Seg7_VHDL_map.ncd Seg7_VHDL.ngd Seg7_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Seg7_VHDL_map.ncd Seg7_VHDL.ncd Seg7_VHDL.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Seg7_VHDL.twx Seg7_VHDL.ncd -o Seg7_VHDL.twr Seg7_VHDL.pcf 
+xst -intstyle ise -ifn "C:/SisDigAva/Segment7_HDL/Seg7_VHDL.xst" -ofn "C:/SisDigAva/Segment7_HDL/Seg7_VHDL.syr" 
+xst -intstyle ise -ifn "C:/SisDigAva/Segment7_HDL/Seg7_VHDL.xst" -ofn "C:/SisDigAva/Segment7_HDL/Seg7_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Seg7_VHDL.ucf -p xc7a100t-csg324-2L Seg7_VHDL.ngc Seg7_VHDL.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Seg7_VHDL.ucf -p xc7a100t-csg324-2L Seg7_VHDL.ngc Seg7_VHDL.ngd  
+map -intstyle ise -p xc7a100t-csg324-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Seg7_VHDL_map.ncd Seg7_VHDL.ngd Seg7_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Seg7_VHDL_map.ncd Seg7_VHDL.ncd Seg7_VHDL.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Seg7_VHDL.twx Seg7_VHDL.ncd -o Seg7_VHDL.twr Seg7_VHDL.pcf -ucf Seg7_VHDL.ucf 
+bitgen -intstyle ise -f Seg7_VHDL.ut Seg7_VHDL.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Seg7_VHDL.ucf -p xc7a100t-csg324-2L Seg7_VHDL.ngc Seg7_VHDL.ngd  
+map -intstyle ise -p xc7a100t-csg324-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Seg7_VHDL_map.ncd Seg7_VHDL.ngd Seg7_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Seg7_VHDL_map.ncd Seg7_VHDL.ncd Seg7_VHDL.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Seg7_VHDL.twx Seg7_VHDL.ncd -o Seg7_VHDL.twr Seg7_VHDL.pcf -ucf Seg7_VHDL.ucf 
+bitgen -intstyle ise -f Seg7_VHDL.ut Seg7_VHDL.ncd 
+xst -intstyle ise -ifn "C:/SisDigAva/Segment7_HDL/Seg7_VHDL.xst" -ofn "C:/SisDigAva/Segment7_HDL/Seg7_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Seg7_VHDL.ucf -p xc7a100t-csg324-2L Seg7_VHDL.ngc Seg7_VHDL.ngd  
+map -intstyle ise -p xc7a100t-csg324-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Seg7_VHDL_map.ncd Seg7_VHDL.ngd Seg7_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Seg7_VHDL_map.ncd Seg7_VHDL.ncd Seg7_VHDL.pcf 
+xst -intstyle ise -ifn "C:/SisDigAva/Segment7_HDL/Seg7_VHDL.xst" -ofn "C:/SisDigAva/Segment7_HDL/Seg7_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Seg7_VHDL.ucf -p xc7a100t-csg324-2L Seg7_VHDL.ngc Seg7_VHDL.ngd  
+map -intstyle ise -p xc7a100t-csg324-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Seg7_VHDL_map.ncd Seg7_VHDL.ngd Seg7_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Seg7_VHDL_map.ncd Seg7_VHDL.ncd Seg7_VHDL.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Seg7_VHDL.twx Seg7_VHDL.ncd -o Seg7_VHDL.twr Seg7_VHDL.pcf -ucf Seg7_VHDL.ucf 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P00_Segment7_HDL/Seg7_VHDL.xst" -ofn "D:/Projects_SisDigAva/P00_Segment7_HDL/Seg7_VHDL.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P00_Segment7_HDL/Seg7_VHDL.xst" -ofn "D:/Projects_SisDigAva/P00_Segment7_HDL/Seg7_VHDL.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P00_Segment7_HDL/Seg7_VHDL.xst" -ofn "D:/Projects_SisDigAva/P00_Segment7_HDL/Seg7_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Seg7_VHDL.ucf -p xc7a100t-csg324-2L Seg7_VHDL.ngc Seg7_VHDL.ngd  
+map -intstyle ise -p xc7a100t-csg324-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Seg7_VHDL_map.ncd Seg7_VHDL.ngd Seg7_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Seg7_VHDL_map.ncd Seg7_VHDL.ncd Seg7_VHDL.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Seg7_VHDL.twx Seg7_VHDL.ncd -o Seg7_VHDL.twr Seg7_VHDL.pcf -ucf Seg7_VHDL.ucf 
+bitgen -intstyle ise -f Seg7_VHDL.ut Seg7_VHDL.ncd 

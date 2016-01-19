@@ -1,0 +1,80 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2L -n
+3 -fastpaths -xml Seg7_VHDL.twx Seg7_VHDL.ncd -o Seg7_VHDL.twr Seg7_VHDL.pcf
+-ucf Seg7_VHDL.ucf
+
+Design file:              Seg7_VHDL.ncd
+Physical constraint file: Seg7_VHDL.pcf
+Device,package,speed:     xc7a100t,csg324,C,-2L (PRODUCTION 1.09 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+I<0>           |S<0>           |    8.311|
+I<0>           |S<1>           |    8.534|
+I<0>           |S<2>           |    8.645|
+I<0>           |S<3>           |    8.482|
+I<0>           |S<4>           |    8.300|
+I<0>           |S<5>           |    8.468|
+I<0>           |S<6>           |    8.457|
+I<1>           |S<0>           |    8.436|
+I<1>           |S<1>           |    8.472|
+I<1>           |S<2>           |    8.767|
+I<1>           |S<3>           |    8.600|
+I<1>           |S<4>           |    8.238|
+I<1>           |S<5>           |    8.591|
+I<1>           |S<6>           |    8.168|
+I<2>           |S<0>           |    8.211|
+I<2>           |S<1>           |    8.565|
+I<2>           |S<2>           |    8.551|
+I<2>           |S<3>           |    8.380|
+I<2>           |S<4>           |    8.337|
+I<2>           |S<5>           |    8.362|
+I<2>           |S<6>           |    8.155|
+I<3>           |S<0>           |    7.708|
+I<3>           |S<1>           |    8.153|
+I<3>           |S<2>           |    8.031|
+I<3>           |S<3>           |    7.862|
+I<3>           |S<4>           |    7.924|
+I<3>           |S<5>           |    7.860|
+I<3>           |S<6>           |    7.949|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Sep 03 11:52:36 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 400 MB
+
+
+

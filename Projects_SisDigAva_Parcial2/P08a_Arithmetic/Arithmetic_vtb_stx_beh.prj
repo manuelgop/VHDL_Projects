@@ -1,0 +1,2 @@
+vhdl isim_temp "Arithmetic.vhd"
+vhdl isim_temp "Arithmetic_vtb.vhd"

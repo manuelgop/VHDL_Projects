@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"D:\Projects_SisDigAva\P17a_Structural_Clock\Clock.vhd" Line 44: &lt;<arg fmt="%s" index="1">clk1hz</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"D:\Projects_SisDigAva\P17a_Structural_Clock\Clock.vhd" Line 59: &lt;<arg fmt="%s" index="1">cont0a9</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"D:\Projects_SisDigAva\P17a_Structural_Clock\Clock.vhd" Line 81: &lt;<arg fmt="%s" index="1">cont0a5</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"D:\Projects_SisDigAva\P17a_Structural_Clock\Clock.vhd" Line 97: &lt;<arg fmt="%s" index="1">cont0a23</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"D:\Projects_SisDigAva\P17a_Structural_Clock\Clock.vhd" Line 112: &lt;<arg fmt="%s" index="1">refreshdisplay</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"D:\Projects_SisDigAva\P17a_Structural_Clock\Clock.vhd" Line 121: &lt;<arg fmt="%s" index="1">cont0a3</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"D:\Projects_SisDigAva\P17a_Structural_Clock\Clock.vhd" Line 145: &lt;<arg fmt="%s" index="1">selanodo</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"D:\Projects_SisDigAva\P17a_Structural_Clock\Clock.vhd" Line 152: &lt;<arg fmt="%s" index="1">decbcd7seg</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">Seg&lt;7&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">DecBCD7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">Seg&lt;6&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">DecBCD7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">Seg&lt;5&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">DecBCD7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">Seg&lt;4&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">DecBCD7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">Seg&lt;3&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">DecBCD7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">Seg&lt;2&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">DecBCD7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">Seg&lt;1&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">DecBCD7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">Seg&lt;0&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">DecBCD7Seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">Disp&lt;3&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">SelAnodo</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">Disp&lt;2&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">SelAnodo</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">Disp&lt;1&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">SelAnodo</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">Disp&lt;0&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">SelAnodo</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SegOut&lt;7&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">Cont0a5</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SegOut&lt;6&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">Cont0a5</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SegOut&lt;5&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">Cont0a5</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SegOut&lt;4&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">Cont0a5</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SegOut&lt;3&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">Cont0a9</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SegOut&lt;2&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">Cont0a9</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SegOut&lt;1&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">Cont0a9</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SegOut&lt;0&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">Cont0a9</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+</messages>
+

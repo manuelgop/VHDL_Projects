@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P10a_Ripple_Adder/Ripple_Adder.xst" -ofn "D:/Projects_SisDigAva/P10a_Ripple_Adder/Ripple_Adder.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P10a_Ripple_Adder/Ripple_Adder.xst" -ofn "D:/Projects_SisDigAva/P10a_Ripple_Adder/Ripple_Adder.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P10a_Ripple_Adder/Ripple_Adder.xst" -ofn "D:/Projects_SisDigAva/P10a_Ripple_Adder/Ripple_Adder.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P10a_Ripple_Adder/Ripple_Adder.xst" -ofn "D:/Projects_SisDigAva/P10a_Ripple_Adder/Ripple_Adder.syr" 

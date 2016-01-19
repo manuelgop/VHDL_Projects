@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Projectos_VHDL\Projects_SisDigAva_Parcial2\P17_Structural_Clock\Clock.ncd
+OUTFILE=C:\Projectos_VHDL\Projects_SisDigAva_Parcial2\P17_Structural_Clock\Clock.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Projectos_VHDL\Projects_SisDigAva_Parcial2\P17_Structural_Clock
+LICENSE=WebPack
+USER_INFO=200310400_0_0_151

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P08b_Comparator/Comparator.xst" -ofn "C:/Projectos_VHDL/P08b_Comparator/Comparator.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P08b_Comparator/Comparator.xst" -ofn "C:/Projectos_VHDL/P08b_Comparator/Comparator.syr" 

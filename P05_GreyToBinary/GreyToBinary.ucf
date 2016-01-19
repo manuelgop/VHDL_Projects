@@ -1,0 +1,13 @@
+#Comment
+#Define input pines
+
+NET "A" LOC =B4;
+NET "B" LOC =K3;
+NET "C" LOC =L3;
+NET "D" LOC =P11;
+
+#DEFINE output pines
+NET "E" LOC =P6;
+NET "F" LOC =P7;
+NET "G" LOC =M11;
+NET "H" LOC =M5;

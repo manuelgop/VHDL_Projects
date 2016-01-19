@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Projectos_VHDL\FinalExam_Conv_to_integer\Conv_to_integer.ncd
+OUTFILE=C:\Projectos_VHDL\FinalExam_Conv_to_integer\Conv_to_integer.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Projectos_VHDL\FinalExam_Conv_to_integer
+LICENSE=WebPack
+USER_INFO=200310400_0_0_151

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\Projects_SisDigAva\P00_Nexys4\impact.xsl
+OUTFILE=D:\Projects_SisDigAva\P00_Nexys4\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=D:\Projects_SisDigAva\P00_Nexys4
+LICENSE=iMPACT
+USER_INFO=iMPACT

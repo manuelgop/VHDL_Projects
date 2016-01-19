@@ -1,0 +1,18 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "Clk100MHz" LOC = V10;
+#
+NET "Left[2]"   LOC = T11;
+NET "Left[1]"   LOC = R11;
+NET "Left[0]"   LOC = N11;
+#
+NET "Right[0]"   LOC = U16;
+NET "Right[1]"   LOC = V16;
+NET "Right[2]"   LOC = U15;
+#
+NET "Rst"        LOC = B8;
+NET "Lturn"      LOC = V9;
+NET "Rturn"      LOC = T10;
+Net "Hazard"     LOC = T9;
+

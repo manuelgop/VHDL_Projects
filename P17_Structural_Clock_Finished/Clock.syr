@@ -1,0 +1,573 @@
+Release 14.6 - xst P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.53 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.53 secs
+ 
+--> Reading design: Clock.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Clock.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Clock"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : Clock
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/Clock is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Clock.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Clock.vhd".
+WARNING:HDLParsers:3607 - Unit work/Clock/Behavioral is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Clock.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Clock.vhd".
+WARNING:HDLParsers:3607 - Unit work/Clk1Hz is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Clk1Hz.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Clk1Hz.vhd".
+WARNING:HDLParsers:3607 - Unit work/Clk1Hz/Behavioral is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Clk1Hz.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Clk1Hz.vhd".
+WARNING:HDLParsers:3607 - Unit work/Cont0a23 is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a23.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a23.vhd".
+WARNING:HDLParsers:3607 - Unit work/Cont0a23/Behavioral is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a23.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a23.vhd".
+WARNING:HDLParsers:3607 - Unit work/Cont0a3 is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a3.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a3.vhd".
+WARNING:HDLParsers:3607 - Unit work/Cont0a3/Behavioral is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a3.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a3.vhd".
+WARNING:HDLParsers:3607 - Unit work/Cont0a5 is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a5.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a5.vhd".
+WARNING:HDLParsers:3607 - Unit work/Cont0a5/Behavioral is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a5.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a5.vhd".
+WARNING:HDLParsers:3607 - Unit work/Cont0a9 is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a9.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a9.vhd".
+WARNING:HDLParsers:3607 - Unit work/Cont0a9/Behavioral is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Cont0a9.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a9.vhd".
+WARNING:HDLParsers:3607 - Unit work/DecBCD7Seg is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/DecBCD7Seg.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/DecBCD7Seg.vhd".
+WARNING:HDLParsers:3607 - Unit work/DecBCD7Seg/Behavioral is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/DecBCD7Seg.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/DecBCD7Seg.vhd".
+WARNING:HDLParsers:3607 - Unit work/Mux4to1 is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Mux4to1.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Mux4to1.vhd".
+WARNING:HDLParsers:3607 - Unit work/Mux4to1/Behavioral is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/Mux4to1.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Mux4to1.vhd".
+WARNING:HDLParsers:3607 - Unit work/RefreshDisplay is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/RefreshDisplay.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/RefreshDisplay.vhd".
+WARNING:HDLParsers:3607 - Unit work/RefreshDisplay/Behavioral is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/RefreshDisplay.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/RefreshDisplay.vhd".
+WARNING:HDLParsers:3607 - Unit work/SelAnodo is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/SelAnodo.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/SelAnodo.vhd".
+WARNING:HDLParsers:3607 - Unit work/SelAnodo/Behavioral is now defined in a different file.  It was defined in "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P17_Structural_Clock/SelAnodo.vhd", and is now defined in "C:/Projectos_VHDL/P17_Structural_Clock_Finished/SelAnodo.vhd".
+Compiling vhdl file "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Clk1Hz.vhd" in Library work.
+Architecture behavioral of Entity clk1hz is up to date.
+Compiling vhdl file "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a9.vhd" in Library work.
+Architecture behavioral of Entity cont0a9 is up to date.
+Compiling vhdl file "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a5.vhd" in Library work.
+Architecture behavioral of Entity cont0a5 is up to date.
+Compiling vhdl file "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a23.vhd" in Library work.
+Architecture behavioral of Entity cont0a23 is up to date.
+Compiling vhdl file "C:/Projectos_VHDL/P17_Structural_Clock_Finished/RefreshDisplay.vhd" in Library work.
+Architecture behavioral of Entity refreshdisplay is up to date.
+Compiling vhdl file "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a3.vhd" in Library work.
+Architecture behavioral of Entity cont0a3 is up to date.
+Compiling vhdl file "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Mux4to1.vhd" in Library work.
+Architecture behavioral of Entity mux4to1 is up to date.
+Compiling vhdl file "C:/Projectos_VHDL/P17_Structural_Clock_Finished/SelAnodo.vhd" in Library work.
+Architecture behavioral of Entity selanodo is up to date.
+Compiling vhdl file "C:/Projectos_VHDL/P17_Structural_Clock_Finished/DecBCD7Seg.vhd" in Library work.
+Architecture behavioral of Entity decbcd7seg is up to date.
+Compiling vhdl file "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Clock.vhd" in Library work.
+Entity <clock> compiled.
+Entity <clock> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Clock> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Clk1Hz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Cont0a9> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Cont0a5> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Cont0a23> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <RefreshDisplay> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Cont0a3> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Mux4to1> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SelAnodo> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DecBCD7Seg> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Clock> in library <work> (Architecture <behavioral>).
+Entity <Clock> analyzed. Unit <Clock> generated.
+
+Analyzing Entity <Clk1Hz> in library <work> (Architecture <behavioral>).
+Entity <Clk1Hz> analyzed. Unit <Clk1Hz> generated.
+
+Analyzing Entity <Cont0a9> in library <work> (Architecture <behavioral>).
+Entity <Cont0a9> analyzed. Unit <Cont0a9> generated.
+
+Analyzing Entity <Cont0a5> in library <work> (Architecture <behavioral>).
+Entity <Cont0a5> analyzed. Unit <Cont0a5> generated.
+
+Analyzing Entity <Cont0a23> in library <work> (Architecture <behavioral>).
+Entity <Cont0a23> analyzed. Unit <Cont0a23> generated.
+
+Analyzing Entity <RefreshDisplay> in library <work> (Architecture <behavioral>).
+Entity <RefreshDisplay> analyzed. Unit <RefreshDisplay> generated.
+
+Analyzing Entity <Cont0a3> in library <work> (Architecture <behavioral>).
+Entity <Cont0a3> analyzed. Unit <Cont0a3> generated.
+
+Analyzing Entity <Mux4to1> in library <work> (Architecture <behavioral>).
+Entity <Mux4to1> analyzed. Unit <Mux4to1> generated.
+
+Analyzing Entity <SelAnodo> in library <work> (Architecture <behavioral>).
+Entity <SelAnodo> analyzed. Unit <SelAnodo> generated.
+
+Analyzing Entity <DecBCD7Seg> in library <work> (Architecture <behavioral>).
+Entity <DecBCD7Seg> analyzed. Unit <DecBCD7Seg> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Clk1Hz>.
+    Related source file is "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Clk1Hz.vhd".
+    Found 1-bit register for signal <ClkOut>.
+    Found 27-bit up counter for signal <Cont>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Clk1Hz> synthesized.
+
+
+Synthesizing Unit <Cont0a9>.
+    Related source file is "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a9.vhd".
+    Found 4-bit register for signal <Cont>.
+    Found 4-bit adder for signal <Cont$addsub0000> created at line 51.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Cont0a9> synthesized.
+
+
+Synthesizing Unit <Cont0a5>.
+    Related source file is "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a5.vhd".
+WARNING:Xst:647 - Input <Valor<3>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 3-bit register for signal <Cont>.
+    Found 3-bit adder for signal <Cont$addsub0000> created at line 50.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Cont0a5> synthesized.
+
+
+Synthesizing Unit <Cont0a23>.
+    Related source file is "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a23.vhd".
+    Found 4-bit register for signal <ContDec>.
+    Found 4-bit adder for signal <ContDec$addsub0000> created at line 74.
+    Found 4-bit register for signal <ContUni>.
+    Found 4-bit adder for signal <ContUni$addsub0000> created at line 54.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <Cont0a23> synthesized.
+
+
+Synthesizing Unit <RefreshDisplay>.
+    Related source file is "C:/Projectos_VHDL/P17_Structural_Clock_Finished/RefreshDisplay.vhd".
+    Found 1-bit register for signal <ClkOut>.
+    Found 17-bit up counter for signal <Cont>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <RefreshDisplay> synthesized.
+
+
+Synthesizing Unit <Cont0a3>.
+    Related source file is "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Cont0a3.vhd".
+    Found 2-bit up counter for signal <Cont>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <Cont0a3> synthesized.
+
+
+Synthesizing Unit <Mux4to1>.
+    Related source file is "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Mux4to1.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <Tiempo>.
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <Mux4to1> synthesized.
+
+
+Synthesizing Unit <SelAnodo>.
+    Related source file is "C:/Projectos_VHDL/P17_Structural_Clock_Finished/SelAnodo.vhd".
+    Found 1-of-4 decoder for signal <Anodo>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <SelAnodo> synthesized.
+
+
+Synthesizing Unit <DecBCD7Seg>.
+    Related source file is "C:/Projectos_VHDL/P17_Structural_Clock_Finished/DecBCD7Seg.vhd".
+    Found 16x8-bit ROM for signal <Seg>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <DecBCD7Seg> synthesized.
+
+
+Synthesizing Unit <Clock>.
+    Related source file is "C:/Projectos_VHDL/P17_Structural_Clock_Finished/Clock.vhd".
+Unit <Clock> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 6
+ 3-bit adder                                           : 2
+ 4-bit adder                                           : 4
+# Counters                                             : 3
+ 17-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 27-bit up counter                                     : 1
+# Registers                                            : 8
+ 1-bit register                                        : 2
+ 3-bit register                                        : 2
+ 4-bit register                                        : 4
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 6
+ 3-bit adder                                           : 2
+ 4-bit adder                                           : 4
+# Counters                                             : 3
+ 17-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+ 27-bit up counter                                     : 1
+# Registers                                            : 24
+ Flip-Flops                                            : 24
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Clock> ...
+
+Optimizing unit <Cont0a9> ...
+
+Optimizing unit <Cont0a5> ...
+
+Optimizing unit <Cont0a23> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Clock, actual ratio is 11.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 70
+ Flip-Flops                                            : 70
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Clock.ngr
+Top Level Output File Name         : Clock
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 32
+
+Cell Usage :
+# BELS                             : 300
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 42
+#      LUT2                        : 56
+#      LUT2_L                      : 3
+#      LUT3                        : 21
+#      LUT3_L                      : 2
+#      LUT4                        : 50
+#      LUT4_D                      : 3
+#      LUT4_L                      : 3
+#      MUXCY                       : 54
+#      MUXF5                       : 14
+#      VCC                         : 1
+#      XORCY                       : 44
+# FlipFlops/Latches                : 70
+#      FDC                         : 52
+#      FDCE                        : 16
+#      FDE                         : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 31
+#      IBUF                        : 11
+#      OBUF                        : 20
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                      104  out of    960    10%  
+ Number of Slice Flip Flops:             70  out of   1920     3%  
+ Number of 4 input LUTs:                186  out of   1920     9%  
+ Number of IOs:                          32
+ Number of bonded IOBs:                  32  out of     83    38%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk100MHz                          | BUFGP                  | 70    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+Rst                                | IBUF                   | 68    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.361ns (Maximum Frequency: 186.518MHz)
+   Minimum input arrival time before clock: 6.012ns
+   Maximum output required time after clock: 7.298ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk100MHz'
+  Clock period: 5.361ns (frequency: 186.518MHz)
+  Total number of paths / destination ports: 1949 / 86
+-------------------------------------------------------------------------
+Delay:               5.361ns (Levels of Logic = 5)
+  Source:            U3/Cont_1 (FF)
+  Destination:       U6/ContDec_3 (FF)
+  Source Clock:      Clk100MHz rising
+  Destination Clock: Clk100MHz rising
+
+  Data Path: U3/Cont_1 to U6/ContDec_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             4   0.514   0.651  U3/Cont_1 (U3/Cont_1)
+     LUT2:I0->O            1   0.612   0.387  EnHoras_int1_SW0_SW0 (N28)
+     LUT4_D:I2->LO         1   0.612   0.103  EnHoras_int1 (N68)
+     LUT4:I3->O            8   0.612   0.712  EnHoras_int (EnHoras_int)
+     LUT4:I1->O            1   0.612   0.000  U6/ContDec_3_rstpot11 (U6/ContDec_3_rstpot1)
+     MUXF5:I0->O           1   0.278   0.000  U6/ContDec_3_rstpot1_f5 (U6/ContDec_3_rstpot)
+     FDC:D                     0.268          U6/ContDec_3
+    ----------------------------------------
+    Total                      5.361ns (3.508ns logic, 1.853ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk100MHz'
+  Total number of paths / destination ports: 88 / 38
+-------------------------------------------------------------------------
+Offset:              6.012ns (Levels of Logic = 5)
+  Source:            HorEn (PAD)
+  Destination:       U6/ContDec_0 (FF)
+  Destination Clock: Clk100MHz rising
+
+  Data Path: HorEn to U6/ContDec_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            22   1.106   1.141  HorEn_IBUF (HorEn_IBUF)
+     LUT2:I0->O            1   0.612   0.509  U6/ContDec_mux0000<0>0 (U6/ContDec_mux0000<0>0)
+     LUT4:I0->O            2   0.612   0.410  U6/ContDec_mux0000<0>40 (U6/ContDec_mux0000<0>)
+     LUT3_L:I2->LO         1   0.612   0.130  U6/ContDec_not000270_SW2 (N34)
+     LUT4:I2->O            1   0.612   0.000  U6/ContDec_0_rstpot (U6/ContDec_0_rstpot)
+     FDC:D                     0.268          U6/ContDec_0
+    ----------------------------------------
+    Total                      6.012ns (3.822ns logic, 2.190ns route)
+                                       (63.6% logic, 36.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk100MHz'
+  Total number of paths / destination ports: 204 / 18
+-------------------------------------------------------------------------
+Offset:              7.298ns (Levels of Logic = 4)
+  Source:            U8/Cont_0 (FF)
+  Destination:       Seg<6> (PAD)
+  Source Clock:      Clk100MHz rising
+
+  Data Path: U8/Cont_0 to Seg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            14   0.514   1.002  U8/Cont_0 (U8/Cont_0)
+     LUT3:I0->O            1   0.612   0.000  U9/Mmux_Tiempo_31 (U9/Mmux_Tiempo_31)
+     MUXF5:I1->O           7   0.278   0.754  U9/Mmux_Tiempo_2_f5_0 (Tiempo_int<1>)
+     LUT4:I0->O            1   0.612   0.357  U11/Mrom_Seg21 (Seg_2_OBUF)
+     OBUF:I->O                 3.169          Seg_2_OBUF (Seg<2>)
+    ----------------------------------------
+    Total                      7.298ns (5.185ns logic, 2.113ns route)
+                                       (71.0% logic, 29.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.42 secs
+ 
+--> 
+
+Total memory usage is 206864 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   21 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

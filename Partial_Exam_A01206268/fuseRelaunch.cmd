@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Partial_Exam_A01206268/Partial_Exam_A01206268_SIM_isim_beh.exe" -prj "E:/Partial_Exam_A01206268/Partial_Exam_A01206268_SIM_beh.prj" "work.Partial_Exam_A01206268_SIM" 

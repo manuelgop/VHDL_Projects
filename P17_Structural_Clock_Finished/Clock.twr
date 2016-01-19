@@ -1,0 +1,104 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml Clock.twx Clock.ncd -o Clock.twr Clock.pcf -ucf Clock.ucf
+
+Design file:              Clock.ncd
+Physical constraint file: Clock.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock Clk100MHz
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+DecEnt<0>   |    3.277(R)|    0.724(R)|Clk100MHz_BUFGP   |   0.000|
+DecEnt<1>   |    2.016(R)|   -0.061(R)|Clk100MHz_BUFGP   |   0.000|
+DecEnt<2>   |    1.406(R)|    0.319(R)|Clk100MHz_BUFGP   |   0.000|
+DecEnt<3>   |    1.248(R)|    0.098(R)|Clk100MHz_BUFGP   |   0.000|
+HorEn       |    4.300(R)|    0.306(R)|Clk100MHz_BUFGP   |   0.000|
+MinEn       |    3.930(R)|   -0.007(R)|Clk100MHz_BUFGP   |   0.000|
+Rst         |    2.121(R)|    0.770(R)|Clk100MHz_BUFGP   |   0.000|
+UniEnt<0>   |    1.774(R)|    0.410(R)|Clk100MHz_BUFGP   |   0.000|
+UniEnt<1>   |    2.010(R)|    0.452(R)|Clk100MHz_BUFGP   |   0.000|
+UniEnt<2>   |    1.137(R)|    0.346(R)|Clk100MHz_BUFGP   |   0.000|
+UniEnt<3>   |    2.372(R)|   -0.265(R)|Clk100MHz_BUFGP   |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock Clk100MHz to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+Disp<0>     |    8.208(R)|Clk100MHz_BUFGP   |   0.000|
+Disp<1>     |    8.881(R)|Clk100MHz_BUFGP   |   0.000|
+Disp<2>     |    8.748(R)|Clk100MHz_BUFGP   |   0.000|
+Disp<3>     |    8.582(R)|Clk100MHz_BUFGP   |   0.000|
+Seg<0>      |   11.754(R)|Clk100MHz_BUFGP   |   0.000|
+Seg<1>      |   11.971(R)|Clk100MHz_BUFGP   |   0.000|
+Seg<2>      |   12.768(R)|Clk100MHz_BUFGP   |   0.000|
+Seg<3>      |   12.727(R)|Clk100MHz_BUFGP   |   0.000|
+Seg<4>      |   12.756(R)|Clk100MHz_BUFGP   |   0.000|
+Seg<5>      |   12.288(R)|Clk100MHz_BUFGP   |   0.000|
+Seg<6>      |   12.630(R)|Clk100MHz_BUFGP   |   0.000|
+SegOut<0>   |    7.611(R)|Clk100MHz_BUFGP   |   0.000|
+SegOut<1>   |    7.734(R)|Clk100MHz_BUFGP   |   0.000|
+SegOut<2>   |    7.693(R)|Clk100MHz_BUFGP   |   0.000|
+SegOut<3>   |    7.450(R)|Clk100MHz_BUFGP   |   0.000|
+SegOut<4>   |    7.579(R)|Clk100MHz_BUFGP   |   0.000|
+SegOut<5>   |    7.483(R)|Clk100MHz_BUFGP   |   0.000|
+SegOut<6>   |    7.874(R)|Clk100MHz_BUFGP   |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock Clk100MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk100MHz      |    4.896|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon Nov 11 10:13:47 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 122 MB
+
+
+

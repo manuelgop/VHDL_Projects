@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Projects_SisDigAva/P15_Parcial01_Teorico/Teorico_vtb_isim_beh.exe" -prj "D:/Projects_SisDigAva/P15_Parcial01_Teorico/Teorico_vtb_beh.prj" "work.Teorico_vtb" 

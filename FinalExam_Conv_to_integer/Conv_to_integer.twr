@@ -1,0 +1,132 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml Conv_to_integer.twx Conv_to_integer.ncd -o
+Conv_to_integer.twr Conv_to_integer.pcf
+
+Design file:              Conv_to_integer.ncd
+Physical constraint file: Conv_to_integer.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |Suma<0>        |    7.421|
+A<0>           |Suma<1>        |    7.967|
+A<0>           |Suma<2>        |    7.625|
+A<0>           |Suma<3>        |    7.973|
+A<0>           |Suma<4>        |    8.300|
+A<0>           |Suma<5>        |    8.242|
+A<0>           |Suma<6>        |    7.974|
+A<0>           |Suma<7>        |    8.393|
+A<1>           |Suma<1>        |    7.443|
+A<1>           |Suma<2>        |    7.318|
+A<1>           |Suma<3>        |    7.666|
+A<1>           |Suma<4>        |    7.993|
+A<1>           |Suma<5>        |    7.935|
+A<1>           |Suma<6>        |    7.667|
+A<1>           |Suma<7>        |    8.086|
+A<2>           |Suma<2>        |    6.770|
+A<2>           |Suma<3>        |    7.269|
+A<2>           |Suma<4>        |    7.833|
+A<2>           |Suma<5>        |    7.775|
+A<2>           |Suma<6>        |    7.507|
+A<2>           |Suma<7>        |    7.926|
+A<3>           |Suma<3>        |    7.235|
+A<3>           |Suma<4>        |    8.016|
+A<3>           |Suma<5>        |    7.958|
+A<3>           |Suma<6>        |    7.690|
+A<3>           |Suma<7>        |    8.109|
+A<4>           |Suma<4>        |    7.273|
+A<4>           |Suma<5>        |    7.366|
+A<4>           |Suma<6>        |    7.335|
+A<4>           |Suma<7>        |    7.754|
+A<5>           |Suma<5>        |    6.957|
+A<5>           |Suma<6>        |    7.143|
+A<5>           |Suma<7>        |    7.562|
+A<6>           |Suma<6>        |    6.924|
+A<6>           |Suma<7>        |    7.494|
+A<7>           |Suma<7>        |    7.219|
+B<0>           |Suma<0>        |    6.674|
+B<0>           |Suma<1>        |    7.220|
+B<0>           |Suma<2>        |    6.878|
+B<0>           |Suma<3>        |    7.226|
+B<0>           |Suma<4>        |    7.553|
+B<0>           |Suma<5>        |    7.495|
+B<0>           |Suma<6>        |    7.227|
+B<0>           |Suma<7>        |    7.646|
+B<1>           |Suma<1>        |    6.677|
+B<1>           |Suma<2>        |    6.552|
+B<1>           |Suma<3>        |    6.900|
+B<1>           |Suma<4>        |    7.227|
+B<1>           |Suma<5>        |    7.169|
+B<1>           |Suma<6>        |    6.901|
+B<1>           |Suma<7>        |    7.320|
+B<2>           |Suma<2>        |    6.292|
+B<2>           |Suma<3>        |    6.791|
+B<2>           |Suma<4>        |    7.355|
+B<2>           |Suma<5>        |    7.297|
+B<2>           |Suma<6>        |    7.029|
+B<2>           |Suma<7>        |    7.448|
+B<3>           |Suma<3>        |    6.361|
+B<3>           |Suma<4>        |    7.142|
+B<3>           |Suma<5>        |    7.084|
+B<3>           |Suma<6>        |    6.816|
+B<3>           |Suma<7>        |    7.235|
+B<4>           |Suma<4>        |    6.816|
+B<4>           |Suma<5>        |    6.909|
+B<4>           |Suma<6>        |    6.878|
+B<4>           |Suma<7>        |    7.297|
+B<5>           |Suma<5>        |    6.691|
+B<5>           |Suma<6>        |    6.877|
+B<5>           |Suma<7>        |    7.296|
+B<6>           |Suma<6>        |    6.525|
+B<6>           |Suma<7>        |    7.095|
+B<7>           |Suma<7>        |    6.742|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Dec 02 22:19:46 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 125 MB
+
+
+

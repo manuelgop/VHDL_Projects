@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.68d on Thu Oct 31 08:19:08 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Test" LOCATE = SITE "T9" LEVEL 1;
+COMP "Green1" LOCATE = SITE "U15" LEVEL 1;
+COMP "Green2" LOCATE = SITE "T11" LEVEL 1;
+COMP "Yellow1" LOCATE = SITE "V16" LEVEL 1;
+COMP "Yellow2" LOCATE = SITE "R11" LEVEL 1;
+COMP "Stby" LOCATE = SITE "T10" LEVEL 1;
+COMP "Clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "Red1" LOCATE = SITE "U16" LEVEL 1;
+COMP "Red2" LOCATE = SITE "N11" LEVEL 1;
+SCHEMATIC END;
+

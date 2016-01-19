@@ -1,0 +1,8 @@
+V3 3
+FL C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.vhd 2013/10/16.18:53:06 P.68d
+EN work/Shift_Reg 1381967591 \
+      FL C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609 \
+      PB ieee/NUMERIC_STD 1370735611
+AR work/Shift_Reg/Behavioral 1381967592 \
+      FL C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.vhd EN work/Shift_Reg 1381967591

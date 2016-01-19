@@ -1,0 +1,9 @@
+NET "A" LOC = P11;
+NET "B" LOC = L3;
+NET "C" LOC = K3;
+NET "D" LOC = B4;
+NET "E" LOC = P6;
+NET "F" LOC = P7;
+NET "G" LOC = M11;
+NET "H" LOC = M5;
+

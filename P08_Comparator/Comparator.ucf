@@ -1,0 +1,19 @@
+#Comment
+#Define input pines
+
+NET "A<3>" LOC = N3;#SW0
+NET "A<2>" LOC = E2;#SW1
+NET "A<1>" LOC = F3;#SW2
+NET "A<0>" LOC = G3;#SW3
+
+NET "B<3>" LOC = B4;#SW0
+NET "B<2>" LOC = K3;#SW1
+NET "B<1>" LOC = L3;#SW2
+NET "B<0>" LOC = P11;#SW3
+
+
+#DEFINE output pines
+NET "AgB" LOC =M5;
+NET "AeqB" LOC =M11;
+NET "AlB" LOC =P7;
+

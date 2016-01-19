@@ -1,0 +1,73 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.5
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Mayority_Detector.vf
+// /___/   /\     Timestamp : 08/14/2013 18:43:46
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog E:/Proyectos_Manuel/P01_Mayority_Detector_SCH/Mayority_Detector.vf -w E:/Proyectos_Manuel/P01_Mayority_Detector_SCH/Mayority_Detector.sch
+//Design Name: Mayority_Detector
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Mayority_Detector(A, 
+                         B, 
+                         C, 
+                         Y);
+
+   (* LOC = "K3" *) 
+    input A;
+   (* LOC = "L3" *) 
+    input B;
+   (* LOC = "P11" *) 
+    input C;
+   (* LOC = "M5" *) 
+   output Y;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_7;
+   wire XLXN_9;
+   wire XLXN_12;
+   wire XLXN_13;
+   wire XLXN_14;
+   
+   AND2  XLXI_1 (.I0(XLXN_9), 
+                .I1(XLXN_13), 
+                .O(XLXN_1));
+   AND2  XLXI_2 (.I0(XLXN_12), 
+                .I1(XLXN_13), 
+                .O(XLXN_2));
+   AND2  XLXI_3 (.I0(XLXN_9), 
+                .I1(XLXN_12), 
+                .O(XLXN_7));
+   OR3  XLXI_4 (.I0(XLXN_7), 
+               .I1(XLXN_2), 
+               .I2(XLXN_1), 
+               .O(XLXN_14));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_5 (.I(A), 
+                .O(XLXN_13));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_6 (.I(B), 
+                .O(XLXN_9));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUF  XLXI_7 (.I(C), 
+                .O(XLXN_12));
+   (* IOSTANDARD = "DEFAULT" *) (* SLEW = "SLOW" *) (* DRIVE = "12" *) 
+   OBUF  XLXI_8 (.I(XLXN_14), 
+                .O(Y));
+endmodule

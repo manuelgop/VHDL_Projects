@@ -1,0 +1,8 @@
+Release 14.6 Drc P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Oct 16 18:09:12 2013
+
+drc -z Barrel_Shifters.ncd Barrel_Shifters.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P11b_ParityDetector/ParityDetector.xst" -ofn "D:/Projects_SisDigAva/P11b_ParityDetector/ParityDetector.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P11b_ParityDetector/ParityDetector.xst" -ofn "D:/Projects_SisDigAva/P11b_ParityDetector/ParityDetector.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P11b_ParityDetector/ParityDetector.xst" -ofn "D:/Projects_SisDigAva/P11b_ParityDetector/ParityDetector.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P11b_ParityDetector/ParityDetector.xst" -ofn "D:/Projects_SisDigAva/P11b_ParityDetector/ParityDetector.syr" 

@@ -1,0 +1,4 @@
+EN memory_ip NULL C:/Projectos_VHDL/P_29_Memory_IPCore/Memory_IP.vhd sub00/vhpl02 1384386271
+EN memory NULL C:/Projectos_VHDL/P_29_Memory_IPCore/ipcore_dir/Memory.vhd sub00/vhpl00 1384386269
+AR memory memory_a C:/Projectos_VHDL/P_29_Memory_IPCore/ipcore_dir/Memory.vhd sub00/vhpl01 1384386270
+AR memory_ip behavioral C:/Projectos_VHDL/P_29_Memory_IPCore/Memory_IP.vhd sub00/vhpl03 1384386272

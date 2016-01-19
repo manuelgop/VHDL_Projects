@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.68d on Wed Oct 23 18:41:05 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Clk100MHz" LOCATE = SITE "V10" LEVEL 1;
+COMP "Rlights<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "Rlights<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "Rturn" LOCATE = SITE "T10" LEVEL 1;
+COMP "Rlights<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "Lturn" LOCATE = SITE "V9" LEVEL 1;
+COMP "Rst" LOCATE = SITE "B8" LEVEL 1;
+COMP "Llights<0>" LOCATE = SITE "N11" LEVEL 1;
+COMP "Llights<1>" LOCATE = SITE "R11" LEVEL 1;
+COMP "Llights<2>" LOCATE = SITE "T11" LEVEL 1;
+COMP "Hazard" LOCATE = SITE "T9" LEVEL 1;
+SCHEMATIC END;
+

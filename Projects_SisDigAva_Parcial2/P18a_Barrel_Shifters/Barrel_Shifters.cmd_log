@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P18a_Barrel_Shifters/Barrel_Shifters.xst" -ofn "D:/Projects_SisDigAva/P18a_Barrel_Shifters/Barrel_Shifters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc6slx16-csg324-3 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+par -w -intstyle ise -ol high -mt off Barrel_Shifters_map.ncd Barrel_Shifters.ncd Barrel_Shifters.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf 
+bitgen -intstyle ise -f Barrel_Shifters.ut Barrel_Shifters.ncd 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P18a_Barrel_Shifters/Barrel_Shifters.xst" -ofn "D:/Projects_SisDigAva/P18a_Barrel_Shifters/Barrel_Shifters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc6slx16-csg324-3 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+par -w -intstyle ise -ol high -mt off Barrel_Shifters_map.ncd Barrel_Shifters.ncd Barrel_Shifters.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf 
+bitgen -intstyle ise -f Barrel_Shifters.ut Barrel_Shifters.ncd 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P18a_Barrel_Shifters/Barrel_Shifters.xst" -ofn "D:/Projects_SisDigAva/P18a_Barrel_Shifters/Barrel_Shifters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc6slx16-csg324-3 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+par -w -intstyle ise -ol high -mt off Barrel_Shifters_map.ncd Barrel_Shifters.ncd Barrel_Shifters.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf 
+bitgen -intstyle ise -f Barrel_Shifters.ut Barrel_Shifters.ncd 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P18a_Barrel_Shifters/Barrel_Shifters.xst" -ofn "D:/Projects_SisDigAva/P18a_Barrel_Shifters/Barrel_Shifters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc6slx16-csg324-3 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+par -w -intstyle ise -ol high -mt off Barrel_Shifters_map.ncd Barrel_Shifters.ncd Barrel_Shifters.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf 
+bitgen -intstyle ise -f Barrel_Shifters.ut Barrel_Shifters.ncd 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P18a_Barrel_Shifters/Barrel_Shifters.xst" -ofn "D:/Projects_SisDigAva/P18a_Barrel_Shifters/Barrel_Shifters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc6slx16-csg324-3 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+par -w -intstyle ise -ol high -mt off Barrel_Shifters_map.ncd Barrel_Shifters.ncd Barrel_Shifters.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf 
+bitgen -intstyle ise -f Barrel_Shifters.ut Barrel_Shifters.ncd 

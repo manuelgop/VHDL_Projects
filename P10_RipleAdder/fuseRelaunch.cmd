@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Projectos_VHDL/P10_RipleAdder/RripleAdder_isim_beh.exe" -prj "C:/Projectos_VHDL/P10_RipleAdder/RripleAdder_beh.prj" "work.RripleAdder" 

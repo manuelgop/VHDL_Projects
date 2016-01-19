@@ -1,0 +1,115 @@
+
+****** PlanAhead v14.6 (64-bit)
+  **** Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/Projects_SisDigAva/P17_SN74LS163A/pa.fromNetlist.tcl
+# create_project -name P17_SN74LS163A -dir "D:/Projects_SisDigAva/P17_SN74LS163A/planAhead_run_1" -part xc6slx16csg324-3
+create_project: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 419.484 ; gain = 65.793
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/Projects_SisDigAva/P17_SN74LS163A/SN74LS163A.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/Projects_SisDigAva/P17_SN74LS163A} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "SN74LS163A.ucf" [current_fileset -constrset]
+Adding file 'D:/Projects_SisDigAva/P17_SN74LS163A/SN74LS163A.ucf' to fileset 'constrs_1'
+# add_files [list {SN74LS163A.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16csg324-3
+Release 14.6 - ngc2edif P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design SN74LS163A.ngc ...
+WARNING:NetListWriters:298 - No output is written to SN74LS163A.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file SN74LS163A.edif ...
+ngc2edif: Total memory usage is 78456 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/P17_SN74LS163A.data/cache/SN74LS163A_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/P17_SN74LS163A.data/cache/SN74LS163A_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:/Projects_SisDigAva/P17_SN74LS163A/SN74LS163A.ucf]
+Finished Parsing UCF File [D:/Projects_SisDigAva/P17_SN74LS163A/SN74LS163A.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: 3ff62d5c
+link_design: Time (s): elapsed = 00:00:31 . Memory (MB): peak = 608.977 ; gain = 183.930
+startgroup
+set_property package_pin V10 [get_ports Clk100MHz]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports Rst]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports TC]
+endgroup
+set_property package_pin "" [get_ports [list  {Anode[3]}]]
+startgroup
+set_property package_pin P17 [get_ports {Anode[3]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {Anode[2]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {Anode[1]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {Anode[1]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {Anode[0]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {DataIn[0]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {DataIn[1]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {DataIn[0]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {DataIn[1]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {DataIn[2]}]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports {DataIn[3]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports Rst]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports nPE]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports CET]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports CEP]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Oct 02 15:58:07 2013...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.xst" -ofn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.xst" -ofn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.xst" -ofn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.xst" -ofn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.xst" -ofn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.xst" -ofn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.xst" -ofn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 Mustang_FSM.ngc Mustang_FSM.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Mustang.ucf -p xc3s100e-cp132-5 Mustang_FSM.ngc Mustang_FSM.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Mustang.ucf -p xc3s100e-cp132-5 Mustang_FSM.ngc Mustang_FSM.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Mustang_FSM_map.ncd Mustang_FSM.ngd Mustang_FSM.pcf 
+par -w -intstyle ise -ol high -t 1 Mustang_FSM_map.ncd Mustang_FSM.ncd Mustang_FSM.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Mustang_FSM.twx Mustang_FSM.ncd -o Mustang_FSM.twr Mustang_FSM.pcf -ucf Mustang.ucf 
+bitgen -intstyle ise -f Mustang_FSM.ut Mustang_FSM.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Mustang.ucf -p xc3s100e-cp132-5 Mustang_FSM.ngc Mustang_FSM.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Mustang_FSM_map.ncd Mustang_FSM.ngd Mustang_FSM.pcf 
+par -w -intstyle ise -ol high -t 1 Mustang_FSM_map.ncd Mustang_FSM.ncd Mustang_FSM.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Mustang_FSM.twx Mustang_FSM.ncd -o Mustang_FSM.twr Mustang_FSM.pcf -ucf Mustang.ucf 
+bitgen -intstyle ise -f Mustang_FSM.ut Mustang_FSM.ncd 
+bitgen -intstyle ise -f Mustang_FSM.ut Mustang_FSM.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.xst" -ofn "C:/Projectos_VHDL/P22_Mustang_Tail_Lights_FSM/Mustang_FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Mustang.ucf -p xc3s100e-cp132-5 Mustang_FSM.ngc Mustang_FSM.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Mustang_FSM_map.ncd Mustang_FSM.ngd Mustang_FSM.pcf 
+par -w -intstyle ise -ol high -t 1 Mustang_FSM_map.ncd Mustang_FSM.ncd Mustang_FSM.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Mustang_FSM.twx Mustang_FSM.ncd -o Mustang_FSM.twr Mustang_FSM.pcf -ucf Mustang.ucf 
+bitgen -intstyle ise -f Mustang_FSM.ut Mustang_FSM.ncd 

@@ -1,0 +1,7 @@
+V3 3
+FL C:/Projectos_VHDL/P_28_RWM_Memory/RWM_Memory.vhd 2013/11/13.16:58:41 P.68d
+EN work/RWM_Memory 1384383525 FL C:/Projectos_VHDL/P_28_RWM_Memory/RWM_Memory.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/RWM_Memory/Behavioral 1384383526 \
+      FL C:/Projectos_VHDL/P_28_RWM_Memory/RWM_Memory.vhd EN work/RWM_Memory 1384383525

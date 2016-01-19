@@ -1,0 +1,5 @@
+set -tmpdir "C:/Projectos_VHDL/P17_Structural_Clock/xst/projnav.tmp"
+set -xsthdpdir "C:/Projectos_VHDL/P17_Structural_Clock/xst"
+elaborate
+-ifn Clk1Hz.prj
+-ifmt mixed

@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P22_Ford_Mustang_Tail_Lights_FSM/Mustang_FSM.xst" -ofn "D:/Projects_SisDigAva/P22_Ford_Mustang_Tail_Lights_FSM/Mustang_FSM.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P22_Ford_Mustang_Tail_Lights_FSM/Mustang_FSM.xst" -ofn "D:/Projects_SisDigAva/P22_Ford_Mustang_Tail_Lights_FSM/Mustang_FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Mustang_FSM.ucf -p xc6slx16-csg324-3 Mustang_FSM.ngc Mustang_FSM.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mustang_FSM_map.ncd Mustang_FSM.ngd Mustang_FSM.pcf 
+par -w -intstyle ise -ol high -mt off Mustang_FSM_map.ncd Mustang_FSM.ncd Mustang_FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Mustang_FSM.twx Mustang_FSM.ncd -o Mustang_FSM.twr Mustang_FSM.pcf -ucf Mustang_FSM.ucf 
+bitgen -intstyle ise -f Mustang_FSM.ut Mustang_FSM.ncd 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P22_Ford_Mustang_Tail_Lights_FSM/Mustang_FSM.xst" -ofn "D:/Projects_SisDigAva/P22_Ford_Mustang_Tail_Lights_FSM/Mustang_FSM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Mustang_FSM.ucf -p xc6slx16-csg324-3 Mustang_FSM.ngc Mustang_FSM.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Mustang_FSM_map.ncd Mustang_FSM.ngd Mustang_FSM.pcf 
+par -w -intstyle ise -ol high -mt off Mustang_FSM_map.ncd Mustang_FSM.ncd Mustang_FSM.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Mustang_FSM.twx Mustang_FSM.ncd -o Mustang_FSM.twr Mustang_FSM.pcf -ucf Mustang_FSM.ucf 
+bitgen -intstyle ise -f Mustang_FSM.ut Mustang_FSM.ncd 

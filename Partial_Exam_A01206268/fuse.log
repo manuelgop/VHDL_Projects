@@ -1,0 +1,23 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/Partial_Exam_A01206268/Partial_Exam_A01206268_SIM_isim_beh.exe -prj E:/Partial_Exam_A01206268/Partial_Exam_A01206268_SIM_beh.prj work.Partial_Exam_A01206268_SIM 
+ISim P.58f (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/Partial_Exam_A01206268/Partial_Exam_A01206268.vhd" into library work
+Parsing VHDL file "E:/Partial_Exam_A01206268/Partial_Exam_A01206268_SIM.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 108080 KB
+Fuse CPU Usage: 233 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling package numeric_std
+Compiling architecture behavioral of entity Partial_Exam_A01206268 [partial_exam_a01206268_default]
+Compiling architecture behavior of entity partial_exam_a01206268_sim
+Time Resolution for simulation is 1ps.
+Compiled 8 VHDL Units
+Built simulation executable E:/Partial_Exam_A01206268/Partial_Exam_A01206268_SIM_isim_beh.exe
+Fuse Memory Usage: 127968 KB
+Fuse CPU Usage: 358 ms

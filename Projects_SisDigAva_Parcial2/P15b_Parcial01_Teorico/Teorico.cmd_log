@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Projects_SisEmbMir/P15b_Teorico/Teorico.xst" -ofn "D:/Projects_SisEmbMir/P15b_Teorico/Teorico.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisEmbMir/P15b_Teorico/Teorico.xst" -ofn "D:/Projects_SisEmbMir/P15b_Teorico/Teorico.syr" 

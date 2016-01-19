@@ -1,0 +1,2 @@
+vhdl work "ROM_Memory.vhd"
+vhdl work "ROM_Memory_vtb.vhd"

@@ -1,0 +1,579 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf
+Contador.ucf
+
+Design file:              Contador.ncd
+Physical constraint file: Contador.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.09 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 1054 paths analyzed, 59 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   3.097ns.
+--------------------------------------------------------------------------------
+
+Paths for end point FreqCounter_19 (SLICE_X39Y113.A2), 26 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     6.903ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FreqCounter_2 (FF)
+  Destination:          FreqCounter_19 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      3.018ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.044ns (0.569 - 0.613)
+  Source Clock:         Clk100MHz_BUFGP rising at 0.000ns
+  Destination Clock:    Clk100MHz_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FreqCounter_2 to FreqCounter_19
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X43Y109.DQ     Tcko                  0.341   FreqCounter<2>
+                                                       FreqCounter_2
+    SLICE_X40Y109.B1     net (fanout=2)        0.727   FreqCounter<2>
+    SLICE_X40Y109.B      Tilo                  0.097   PWR_6_o_FreqCounter[25]_equal_1_o<25>2
+                                                       PWR_6_o_FreqCounter[25]_equal_1_o<25>3
+    SLICE_X43Y109.A1     net (fanout=2)        0.613   PWR_6_o_FreqCounter[25]_equal_1_o<25>2
+    SLICE_X43Y109.A      Tilo                  0.097   FreqCounter<2>
+                                                       PWR_6_o_FreqCounter[25]_equal_1_o<25>5
+    SLICE_X39Y113.A2     net (fanout=26)       1.076   PWR_6_o_FreqCounter[25]_equal_1_o
+    SLICE_X39Y113.CLK    Tas                   0.067   FreqCounter<22>
+                                                       Mcount_FreqCounter_eqn_191
+                                                       FreqCounter_19
+    -------------------------------------------------  ---------------------------
+    Total                                      3.018ns (0.602ns logic, 2.416ns route)
+                                                       (19.9% logic, 80.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     6.960ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FreqCounter_3 (FF)
+  Destination:          FreqCounter_19 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.961ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.044ns (0.569 - 0.613)
+  Source Clock:         Clk100MHz_BUFGP rising at 0.000ns
+  Destination Clock:    Clk100MHz_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FreqCounter_3 to FreqCounter_19
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X42Y109.AQ     Tcko                  0.393   FreqCounter<6>
+                                                       FreqCounter_3
+    SLICE_X40Y109.B2     net (fanout=2)        0.618   FreqCounter<3>
+    SLICE_X40Y109.B      Tilo                  0.097   PWR_6_o_FreqCounter[25]_equal_1_o<25>2
+                                                       PWR_6_o_FreqCounter[25]_equal_1_o<25>3
+    SLICE_X43Y109.A1     net (fanout=2)        0.613   PWR_6_o_FreqCounter[25]_equal_1_o<25>2
+    SLICE_X43Y109.A      Tilo                  0.097   FreqCounter<2>
+                                                       PWR_6_o_FreqCounter[25]_equal_1_o<25>5
+    SLICE_X39Y113.A2     net (fanout=26)       1.076   PWR_6_o_FreqCounter[25]_equal_1_o
+    SLICE_X39Y113.CLK    Tas                   0.067   FreqCounter<22>
+                                                       Mcount_FreqCounter_eqn_191
+                                                       FreqCounter_19
+    -------------------------------------------------  ---------------------------
+    Total                                      2.961ns (0.654ns logic, 2.307ns route)
+                                                       (22.1% logic, 77.9% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     6.988ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FreqCounter_10 (FF)
+  Destination:          FreqCounter_19 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.950ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.027ns (0.108 - 0.135)
+  Source Clock:         Clk100MHz_BUFGP rising at 0.000ns
+  Destination Clock:    Clk100MHz_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FreqCounter_10 to FreqCounter_19
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X38Y110.DQ     Tcko                  0.393   FreqCounter<10>
+                                                       FreqCounter_10
+    SLICE_X40Y109.A1     net (fanout=2)        0.612   FreqCounter<10>
+    SLICE_X40Y109.A      Tilo                  0.097   PWR_6_o_FreqCounter[25]_equal_1_o<25>2
+                                                       PWR_6_o_FreqCounter[25]_equal_1_o<25>4
+    SLICE_X43Y109.A2     net (fanout=2)        0.608   PWR_6_o_FreqCounter[25]_equal_1_o<25>3
+    SLICE_X43Y109.A      Tilo                  0.097   FreqCounter<2>
+                                                       PWR_6_o_FreqCounter[25]_equal_1_o<25>5
+    SLICE_X39Y113.A2     net (fanout=26)       1.076   PWR_6_o_FreqCounter[25]_equal_1_o
+    SLICE_X39Y113.CLK    Tas                   0.067   FreqCounter<22>
+                                                       Mcount_FreqCounter_eqn_191
+                                                       FreqCounter_19
+    -------------------------------------------------  ---------------------------
+    Total                                      2.950ns (0.654ns logic, 2.296ns route)
+                                                       (22.2% logic, 77.8% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point FreqCounter_25 (SLICE_X40Y113.C1), 26 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     7.012ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FreqCounter_2 (FF)
+  Destination:          FreqCounter_25 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.909ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.044ns (0.569 - 0.613)
+  Source Clock:         Clk100MHz_BUFGP rising at 0.000ns
+  Destination Clock:    Clk100MHz_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FreqCounter_2 to FreqCounter_25
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X43Y109.DQ     Tcko                  0.341   FreqCounter<2>
+                                                       FreqCounter_2
+    SLICE_X40Y109.B1     net (fanout=2)        0.727   FreqCounter<2>
+    SLICE_X40Y109.B      Tilo                  0.097   PWR_6_o_FreqCounter[25]_equal_1_o<25>2
+                                                       PWR_6_o_FreqCounter[25]_equal_1_o<25>3
+    SLICE_X43Y109.A1     net (fanout=2)        0.613   PWR_6_o_FreqCounter[25]_equal_1_o<25>2
+    SLICE_X43Y109.A      Tilo                  0.097   FreqCounter<2>
+                                                       PWR_6_o_FreqCounter[25]_equal_1_o<25>5
+    SLICE_X40Y113.C1     net (fanout=26)       0.969   PWR_6_o_FreqCounter[25]_equal_1_o
+    SLICE_X40Y113.CLK    Tas                   0.065   FreqCounter<25>
+                                                       Mcount_FreqCounter_eqn_251
+                                                       FreqCounter_25
+    -------------------------------------------------  ---------------------------
+    Total                                      2.909ns (0.600ns logic, 2.309ns route)
+                                                       (20.6% logic, 79.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     7.069ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FreqCounter_3 (FF)
+  Destination:          FreqCounter_25 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.852ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.044ns (0.569 - 0.613)
+  Source Clock:         Clk100MHz_BUFGP rising at 0.000ns
+  Destination Clock:    Clk100MHz_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FreqCounter_3 to FreqCounter_25
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X42Y109.AQ     Tcko                  0.393   FreqCounter<6>
+                                                       FreqCounter_3
+    SLICE_X40Y109.B2     net (fanout=2)        0.618   FreqCounter<3>
+    SLICE_X40Y109.B      Tilo                  0.097   PWR_6_o_FreqCounter[25]_equal_1_o<25>2
+                                                       PWR_6_o_FreqCounter[25]_equal_1_o<25>3
+    SLICE_X43Y109.A1     net (fanout=2)        0.613   PWR_6_o_FreqCounter[25]_equal_1_o<25>2
+    SLICE_X43Y109.A      Tilo                  0.097   FreqCounter<2>
+                                                       PWR_6_o_FreqCounter[25]_equal_1_o<25>5
+    SLICE_X40Y113.C1     net (fanout=26)       0.969   PWR_6_o_FreqCounter[25]_equal_1_o
+    SLICE_X40Y113.CLK    Tas                   0.065   FreqCounter<25>
+                                                       Mcount_FreqCounter_eqn_251
+                                                       FreqCounter_25
+    -------------------------------------------------  ---------------------------
+    Total                                      2.852ns (0.652ns logic, 2.200ns route)
+                                                       (22.9% logic, 77.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     7.097ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FreqCounter_10 (FF)
+  Destination:          FreqCounter_25 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.841ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.027ns (0.108 - 0.135)
+  Source Clock:         Clk100MHz_BUFGP rising at 0.000ns
+  Destination Clock:    Clk100MHz_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FreqCounter_10 to FreqCounter_25
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X38Y110.DQ     Tcko                  0.393   FreqCounter<10>
+                                                       FreqCounter_10
+    SLICE_X40Y109.A1     net (fanout=2)        0.612   FreqCounter<10>
+    SLICE_X40Y109.A      Tilo                  0.097   PWR_6_o_FreqCounter[25]_equal_1_o<25>2
+                                                       PWR_6_o_FreqCounter[25]_equal_1_o<25>4
+    SLICE_X43Y109.A2     net (fanout=2)        0.608   PWR_6_o_FreqCounter[25]_equal_1_o<25>3
+    SLICE_X43Y109.A      Tilo                  0.097   FreqCounter<2>
+                                                       PWR_6_o_FreqCounter[25]_equal_1_o<25>5
+    SLICE_X40Y113.C1     net (fanout=26)       0.969   PWR_6_o_FreqCounter[25]_equal_1_o
+    SLICE_X40Y113.CLK    Tas                   0.065   FreqCounter<25>
+                                                       Mcount_FreqCounter_eqn_251
+                                                       FreqCounter_25
+    -------------------------------------------------  ---------------------------
+    Total                                      2.841ns (0.652ns logic, 2.189ns route)
+                                                       (22.9% logic, 77.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point FreqCounter_24 (SLICE_X40Y113.B1), 25 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     7.061ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FreqCounter_1 (FF)
+  Destination:          FreqCounter_24 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.860ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.044ns (0.569 - 0.613)
+  Source Clock:         Clk100MHz_BUFGP rising at 0.000ns
+  Destination Clock:    Clk100MHz_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FreqCounter_1 to FreqCounter_24
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X43Y109.CQ     Tcko                  0.341   FreqCounter<2>
+                                                       FreqCounter_1
+    SLICE_X41Y108.B1     net (fanout=2)        0.621   FreqCounter<1>
+    SLICE_X41Y108.COUT   Topcyb                0.509   Mcount_FreqCounter_cy<3>
+                                                       FreqCounter<1>_rt
+                                                       Mcount_FreqCounter_cy<3>
+    SLICE_X41Y109.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<3>
+    SLICE_X41Y109.COUT   Tbyp                  0.089   Mcount_FreqCounter_cy<7>
+                                                       Mcount_FreqCounter_cy<7>
+    SLICE_X41Y110.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<7>
+    SLICE_X41Y110.COUT   Tbyp                  0.089   Mcount_FreqCounter_cy<11>
+                                                       Mcount_FreqCounter_cy<11>
+    SLICE_X41Y111.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<11>
+    SLICE_X41Y111.COUT   Tbyp                  0.089   Mcount_FreqCounter_cy<15>
+                                                       Mcount_FreqCounter_cy<15>
+    SLICE_X41Y112.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<15>
+    SLICE_X41Y112.COUT   Tbyp                  0.089   Mcount_FreqCounter_cy<19>
+                                                       Mcount_FreqCounter_cy<19>
+    SLICE_X41Y113.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<19>
+    SLICE_X41Y113.COUT   Tbyp                  0.089   Mcount_FreqCounter_cy<23>
+                                                       Mcount_FreqCounter_cy<23>
+    SLICE_X41Y114.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<23>
+    SLICE_X41Y114.AMUX   Tcina                 0.286   Result<25>
+                                                       Mcount_FreqCounter_xor<25>
+    SLICE_X40Y113.B1     net (fanout=1)        0.593   Result<24>
+    SLICE_X40Y113.CLK    Tas                   0.065   FreqCounter<25>
+                                                       Mcount_FreqCounter_eqn_241
+                                                       FreqCounter_24
+    -------------------------------------------------  ---------------------------
+    Total                                      2.860ns (1.646ns logic, 1.214ns route)
+                                                       (57.6% logic, 42.4% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     7.082ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FreqCounter_0 (FF)
+  Destination:          FreqCounter_24 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.839ns (Levels of Logic = 8)
+  Clock Path Skew:      -0.044ns (0.569 - 0.613)
+  Source Clock:         Clk100MHz_BUFGP rising at 0.000ns
+  Destination Clock:    Clk100MHz_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FreqCounter_0 to FreqCounter_24
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X43Y109.BQ     Tcko                  0.341   FreqCounter<2>
+                                                       FreqCounter_0
+    SLICE_X41Y108.A2     net (fanout=2)        0.617   FreqCounter<0>
+    SLICE_X41Y108.COUT   Topcya                0.492   Mcount_FreqCounter_cy<3>
+                                                       Mcount_FreqCounter_lut<0>_INV_0
+                                                       Mcount_FreqCounter_cy<3>
+    SLICE_X41Y109.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<3>
+    SLICE_X41Y109.COUT   Tbyp                  0.089   Mcount_FreqCounter_cy<7>
+                                                       Mcount_FreqCounter_cy<7>
+    SLICE_X41Y110.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<7>
+    SLICE_X41Y110.COUT   Tbyp                  0.089   Mcount_FreqCounter_cy<11>
+                                                       Mcount_FreqCounter_cy<11>
+    SLICE_X41Y111.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<11>
+    SLICE_X41Y111.COUT   Tbyp                  0.089   Mcount_FreqCounter_cy<15>
+                                                       Mcount_FreqCounter_cy<15>
+    SLICE_X41Y112.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<15>
+    SLICE_X41Y112.COUT   Tbyp                  0.089   Mcount_FreqCounter_cy<19>
+                                                       Mcount_FreqCounter_cy<19>
+    SLICE_X41Y113.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<19>
+    SLICE_X41Y113.COUT   Tbyp                  0.089   Mcount_FreqCounter_cy<23>
+                                                       Mcount_FreqCounter_cy<23>
+    SLICE_X41Y114.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<23>
+    SLICE_X41Y114.AMUX   Tcina                 0.286   Result<25>
+                                                       Mcount_FreqCounter_xor<25>
+    SLICE_X40Y113.B1     net (fanout=1)        0.593   Result<24>
+    SLICE_X40Y113.CLK    Tas                   0.065   FreqCounter<25>
+                                                       Mcount_FreqCounter_eqn_241
+                                                       FreqCounter_24
+    -------------------------------------------------  ---------------------------
+    Total                                      2.839ns (1.629ns logic, 1.210ns route)
+                                                       (57.4% logic, 42.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     7.243ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               FreqCounter_8 (FF)
+  Destination:          FreqCounter_24 (FF)
+  Requirement:          10.000ns
+  Data Path Delay:      2.695ns (Levels of Logic = 6)
+  Clock Path Skew:      -0.027ns (0.108 - 0.135)
+  Source Clock:         Clk100MHz_BUFGP rising at 0.000ns
+  Destination Clock:    Clk100MHz_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path at Slow Process Corner: FreqCounter_8 to FreqCounter_24
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X38Y110.BQ     Tcko                  0.393   FreqCounter<10>
+                                                       FreqCounter_8
+    SLICE_X41Y110.A1     net (fanout=2)        0.599   FreqCounter<8>
+    SLICE_X41Y110.COUT   Topcya                0.492   Mcount_FreqCounter_cy<11>
+                                                       FreqCounter<8>_rt
+                                                       Mcount_FreqCounter_cy<11>
+    SLICE_X41Y111.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<11>
+    SLICE_X41Y111.COUT   Tbyp                  0.089   Mcount_FreqCounter_cy<15>
+                                                       Mcount_FreqCounter_cy<15>
+    SLICE_X41Y112.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<15>
+    SLICE_X41Y112.COUT   Tbyp                  0.089   Mcount_FreqCounter_cy<19>
+                                                       Mcount_FreqCounter_cy<19>
+    SLICE_X41Y113.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<19>
+    SLICE_X41Y113.COUT   Tbyp                  0.089   Mcount_FreqCounter_cy<23>
+                                                       Mcount_FreqCounter_cy<23>
+    SLICE_X41Y114.CIN    net (fanout=1)        0.000   Mcount_FreqCounter_cy<23>
+    SLICE_X41Y114.AMUX   Tcina                 0.286   Result<25>
+                                                       Mcount_FreqCounter_xor<25>
+    SLICE_X40Y113.B1     net (fanout=1)        0.593   Result<24>
+    SLICE_X40Y113.CLK    Tas                   0.065   FreqCounter<25>
+                                                       Mcount_FreqCounter_eqn_241
+                                                       FreqCounter_24
+    -------------------------------------------------  ---------------------------
+    Total                                      2.695ns (1.503ns logic, 1.192ns route)
+                                                       (55.8% logic, 44.2% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point Clk_1Hz (SLICE_X40Y110.A3), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.268ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Clk_1Hz (FF)
+  Destination:          Clk_1Hz (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.268ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clk100MHz_BUFGP rising at 10.000ns
+  Destination Clock:    Clk100MHz_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: Clk_1Hz to Clk_1Hz
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X40Y110.AQ     Tcko                  0.141   Clk_1Hz
+                                                       Clk_1Hz
+    SLICE_X40Y110.A3     net (fanout=2)        0.173   Clk_1Hz
+    SLICE_X40Y110.CLK    Tah         (-Th)     0.046   Clk_1Hz
+                                                       Clk_1Hz_dpot
+                                                       Clk_1Hz
+    -------------------------------------------------  ---------------------------
+    Total                                      0.268ns (0.095ns logic, 0.173ns route)
+                                                       (35.4% logic, 64.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Clk_1Hz (SLICE_X40Y110.A6), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.325ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               FreqCounter_24 (FF)
+  Destination:          Clk_1Hz (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.343ns (Levels of Logic = 1)
+  Clock Path Skew:      0.018ns (0.085 - 0.067)
+  Source Clock:         Clk100MHz_BUFGP rising at 10.000ns
+  Destination Clock:    Clk100MHz_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: FreqCounter_24 to Clk_1Hz
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X40Y113.BQ     Tcko                  0.141   FreqCounter<25>
+                                                       FreqCounter_24
+    SLICE_X40Y110.A6     net (fanout=3)        0.248   FreqCounter<24>
+    SLICE_X40Y110.CLK    Tah         (-Th)     0.046   Clk_1Hz
+                                                       Clk_1Hz_dpot
+                                                       Clk_1Hz
+    -------------------------------------------------  ---------------------------
+    Total                                      0.343ns (0.095ns logic, 0.248ns route)
+                                                       (27.7% logic, 72.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Clk_1Hz (SLICE_X40Y110.A1), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.384ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               FreqCounter_18 (FF)
+  Destination:          Clk_1Hz (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.401ns (Levels of Logic = 1)
+  Clock Path Skew:      0.017ns (0.085 - 0.068)
+  Source Clock:         Clk100MHz_BUFGP rising at 10.000ns
+  Destination Clock:    Clk100MHz_BUFGP rising at 10.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path at Fast Process Corner: FreqCounter_18 to Clk_1Hz
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X40Y112.DQ     Tcko                  0.141   FreqCounter<18>
+                                                       FreqCounter_18
+    SLICE_X40Y110.A1     net (fanout=3)        0.306   FreqCounter<18>
+    SLICE_X40Y110.CLK    Tah         (-Th)     0.046   Clk_1Hz
+                                                       Clk_1Hz_dpot
+                                                       Clk_1Hz
+    -------------------------------------------------  ---------------------------
+    Total                                      0.401ns (0.095ns logic, 0.306ns route)
+                                                       (23.7% logic, 76.3% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 8.408ns (period - min period limit)
+  Period: 10.000ns
+  Min period limit: 1.592ns (628.141MHz) (Tbcper_I(Fmax))
+  Physical resource: Clk100MHz_BUFGP/BUFG/I0
+  Logical resource: Clk100MHz_BUFGP/BUFG/I0
+  Location pin: BUFGCTRL_X0Y31.I0
+  Clock network: Clk100MHz_BUFGP/IBUFG
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 10.000ns
+  Low pulse: 5.000ns
+  Low pulse limit: 0.500ns (Tcl)
+  Physical resource: FreqCounter<22>/CLK
+  Logical resource: FreqCounter_19/CK
+  Location pin: SLICE_X39Y113.CLK
+  Clock network: Clk100MHz_BUFGP
+--------------------------------------------------------------------------------
+Slack: 9.000ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 10.000ns
+  High pulse: 5.000ns
+  High pulse limit: 0.500ns (Tch)
+  Physical resource: FreqCounter<22>/CLK
+  Logical resource: FreqCounter_19/CK
+  Location pin: SLICE_X39Y113.CLK
+  Clock network: Clk100MHz_BUFGP
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock Clk100MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk100MHz      |    3.097|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 1054 paths, 0 nets, and 130 connections
+
+Design statistics:
+   Minimum period:   3.097ns{1}   (Maximum frequency: 322.893MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Fri Oct 04 18:41:01 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 404 MB
+
+
+

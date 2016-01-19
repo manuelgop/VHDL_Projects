@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P24_Sniffer_FSM_Moore/Sniffer_vtb_isim_beh.exe" -prj "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P24_Sniffer_FSM_Moore/Sniffer_vtb_beh.prj" "work.Sniffer_vtb" 

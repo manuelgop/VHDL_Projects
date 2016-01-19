@@ -1,0 +1,29 @@
+Command line:
+   Partial_Exam_A01206268_SIM_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52381
+
+Wed Sep 25 12:34:22 2013
+
+
+ Elaboration Time: 0.0156 sec
+
+ Current Memory Usage: 494.363 Meg
+
+ Total Signals          : 12
+ Total Nets             : 48
+ Total Signal Drivers   : 9
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 7
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 549
+Total Line Count : 36
+
+ Total Simulation Time: 0.499203 sec
+
+ Current Memory Usage: 494.363 Meg
+
+Wed Sep 25 12:34:53 2013
+

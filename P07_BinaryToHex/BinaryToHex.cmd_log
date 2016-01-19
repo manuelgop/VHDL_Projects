@@ -1,0 +1,58 @@
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BinaryToHex.ucf -p xc3s100e-cp132-5 BinaryToHex.ngc BinaryToHex.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o BinaryToHex_map.ncd BinaryToHex.ngd BinaryToHex.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BinaryToHex.ucf -p xc3s100e-cp132-5 BinaryToHex.ngc BinaryToHex.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o BinaryToHex_map.ncd BinaryToHex.ngd BinaryToHex.pcf 
+par -w -intstyle ise -ol high -t 1 BinaryToHex_map.ncd BinaryToHex.ncd BinaryToHex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BinaryToHex.twx BinaryToHex.ncd -o BinaryToHex.twr BinaryToHex.pcf -ucf BinaryToHex.ucf 
+bitgen -intstyle ise -f BinaryToHex.ut BinaryToHex.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BinaryToHex.ucf -p xc3s100e-cp132-5 BinaryToHex.ngc BinaryToHex.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o BinaryToHex_map.ncd BinaryToHex.ngd BinaryToHex.pcf 
+par -w -intstyle ise -ol high -t 1 BinaryToHex_map.ncd BinaryToHex.ncd BinaryToHex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BinaryToHex.twx BinaryToHex.ncd -o BinaryToHex.twr BinaryToHex.pcf -ucf BinaryToHex.ucf 
+bitgen -intstyle ise -f BinaryToHex.ut BinaryToHex.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BinaryToHex.ucf -p xc3s100e-cp132-5 BinaryToHex.ngc BinaryToHex.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o BinaryToHex_map.ncd BinaryToHex.ngd BinaryToHex.pcf 
+par -w -intstyle ise -ol high -t 1 BinaryToHex_map.ncd BinaryToHex.ncd BinaryToHex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BinaryToHex.twx BinaryToHex.ncd -o BinaryToHex.twr BinaryToHex.pcf -ucf BinaryToHex.ucf 
+bitgen -intstyle ise -f BinaryToHex.ut BinaryToHex.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BinaryToHex.ucf -p xc3s100e-cp132-5 BinaryToHex.ngc BinaryToHex.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o BinaryToHex_map.ncd BinaryToHex.ngd BinaryToHex.pcf 
+par -w -intstyle ise -ol high -t 1 BinaryToHex_map.ncd BinaryToHex.ncd BinaryToHex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BinaryToHex.twx BinaryToHex.ncd -o BinaryToHex.twr BinaryToHex.pcf -ucf BinaryToHex.ucf 
+bitgen -intstyle ise -f BinaryToHex.ut BinaryToHex.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BinaryToHex.ucf -p xc3s100e-cp132-5 BinaryToHex.ngc BinaryToHex.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o BinaryToHex_map.ncd BinaryToHex.ngd BinaryToHex.pcf 
+par -w -intstyle ise -ol high -t 1 BinaryToHex_map.ncd BinaryToHex.ncd BinaryToHex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BinaryToHex.twx BinaryToHex.ncd -o BinaryToHex.twr BinaryToHex.pcf -ucf BinaryToHex.ucf 
+bitgen -intstyle ise -f BinaryToHex.ut BinaryToHex.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BinaryToHex.ucf -p xc3s100e-cp132-5 BinaryToHex.ngc BinaryToHex.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o BinaryToHex_map.ncd BinaryToHex.ngd BinaryToHex.pcf 
+par -w -intstyle ise -ol high -t 1 BinaryToHex_map.ncd BinaryToHex.ncd BinaryToHex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BinaryToHex.twx BinaryToHex.ncd -o BinaryToHex.twr BinaryToHex.pcf -ucf BinaryToHex.ucf 
+bitgen -intstyle ise -f BinaryToHex.ut BinaryToHex.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BinaryToHex.ucf -p xc3s100e-cp132-5 BinaryToHex.ngc BinaryToHex.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o BinaryToHex_map.ncd BinaryToHex.ngd BinaryToHex.pcf 
+par -w -intstyle ise -ol high -t 1 BinaryToHex_map.ncd BinaryToHex.ncd BinaryToHex.pcf 
+par -w -intstyle ise -ol high -t 1 BinaryToHex_map.ncd BinaryToHex.ncd BinaryToHex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BinaryToHex.twx BinaryToHex.ncd -o BinaryToHex.twr BinaryToHex.pcf -ucf BinaryToHex.ucf 
+bitgen -intstyle ise -f BinaryToHex.ut BinaryToHex.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc BinaryToHex.ucf -p xc3s100e-cp132-5 BinaryToHex.ngc BinaryToHex.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o BinaryToHex_map.ncd BinaryToHex.ngd BinaryToHex.pcf 
+par -w -intstyle ise -ol high -t 1 BinaryToHex_map.ncd BinaryToHex.ncd BinaryToHex.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml BinaryToHex.twx BinaryToHex.ncd -o BinaryToHex.twr BinaryToHex.pcf -ucf BinaryToHex.ucf 
+bitgen -intstyle ise -f BinaryToHex.ut BinaryToHex.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.xst" -ofn "C:/Projectos_VHDL/P07_BinaryToHex/BinaryToHex.syr" 

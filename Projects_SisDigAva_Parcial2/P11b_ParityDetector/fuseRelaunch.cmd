@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Projects_SisDigAva/P11b_ParityDetector/ParityDetector_vtb_isim_beh.exe" -prj "D:/Projects_SisDigAva/P11b_ParityDetector/ParityDetector_vtb_beh.prj" "work.ParityDetector_vtb" 

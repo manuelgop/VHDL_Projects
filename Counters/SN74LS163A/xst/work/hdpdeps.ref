@@ -1,0 +1,6 @@
+V3 3
+FL C:/Projectos_VHDL/SN74LS163A/sn74ls163a.vhd 2013/10/15.13:44:18 P.68d
+EN work/sn74ls163a 1381864979 FL C:/Projectos_VHDL/SN74LS163A/sn74ls163a.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/sn74ls163a/Behavioral 1381864980 \
+      FL C:/Projectos_VHDL/SN74LS163A/sn74ls163a.vhd EN work/sn74ls163a 1381864979

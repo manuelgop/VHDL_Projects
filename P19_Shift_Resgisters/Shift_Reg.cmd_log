@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.xst" -ofn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.xst" -ofn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.xst" -ofn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.xst" -ofn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.xst" -ofn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 Shift_Reg.ngc Shift_Reg.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Shift_Reg_map.ncd Shift_Reg.ngd Shift_Reg.pcf 
+par -w -intstyle ise -ol high -t 1 Shift_Reg_map.ncd Shift_Reg.ncd Shift_Reg.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Shift_Reg.twx Shift_Reg.ncd -o Shift_Reg.twr Shift_Reg.pcf 
+bitgen -intstyle ise -f Shift_Reg.ut Shift_Reg.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Shifts.ucf -p xc3s100e-cp132-5 Shift_Reg.ngc Shift_Reg.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Shifts.ucf -p xc3s100e-cp132-5 Shift_Reg.ngc Shift_Reg.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Shifts.ucf -p xc3s100e-cp132-5 Shift_Reg.ngc Shift_Reg.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Shift_Reg_map.ncd Shift_Reg.ngd Shift_Reg.pcf 
+par -w -intstyle ise -ol high -t 1 Shift_Reg_map.ncd Shift_Reg.ncd Shift_Reg.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Shift_Reg.twx Shift_Reg.ncd -o Shift_Reg.twr Shift_Reg.pcf -ucf Shifts.ucf 
+bitgen -intstyle ise -f Shift_Reg.ut Shift_Reg.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.xst" -ofn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Shifts.ucf -p xc3s100e-cp132-5 Shift_Reg.ngc Shift_Reg.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Shift_Reg_map.ncd Shift_Reg.ngd Shift_Reg.pcf 
+par -w -intstyle ise -ol high -t 1 Shift_Reg_map.ncd Shift_Reg.ncd Shift_Reg.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Shift_Reg.twx Shift_Reg.ncd -o Shift_Reg.twr Shift_Reg.pcf -ucf Shifts.ucf 
+bitgen -intstyle ise -f Shift_Reg.ut Shift_Reg.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.xst" -ofn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.xst" -ofn "C:/Projectos_VHDL/P19_Shift_Resgisters/Shift_Reg.syr" 

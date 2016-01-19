@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.68d on Wed Oct 16 18:09:35 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Bus_A<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "Bus_A<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "Bus_A<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "Bus_A<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "Bus_B<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "Bus_A<4>" LOCATE = SITE "G3" LEVEL 1;
+COMP "Bus_B<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "Bus_A<5>" LOCATE = SITE "F3" LEVEL 1;
+COMP "Bus_B<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "Bus_A<6>" LOCATE = SITE "E2" LEVEL 1;
+COMP "Bus_B<3>" LOCATE = SITE "P6" LEVEL 1;
+COMP "Bus_A<7>" LOCATE = SITE "N3" LEVEL 1;
+COMP "Bus_B<4>" LOCATE = SITE "N5" LEVEL 1;
+COMP "Bus_B<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "Bus_B<6>" LOCATE = SITE "P4" LEVEL 1;
+COMP "Bus_B<7>" LOCATE = SITE "G1" LEVEL 1;
+SCHEMATIC END;
+

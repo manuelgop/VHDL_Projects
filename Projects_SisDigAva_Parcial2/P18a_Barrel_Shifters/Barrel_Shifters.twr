@@ -1,0 +1,60 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o
+Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf
+
+Design file:              Barrel_Shifters.ncd
+Physical constraint file: Barrel_Shifters.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Bus_A<0>       |Bus_B<7>       |    5.953|
+Bus_A<1>       |Bus_B<6>       |    6.249|
+Bus_A<2>       |Bus_B<5>       |    5.945|
+Bus_A<3>       |Bus_B<4>       |    6.091|
+Bus_A<4>       |Bus_B<3>       |    6.768|
+Bus_A<5>       |Bus_B<2>       |    6.877|
+Bus_A<6>       |Bus_B<1>       |    6.993|
+Bus_A<7>       |Bus_B<0>       |    7.085|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Oct 16 18:09:01 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 167 MB
+
+
+

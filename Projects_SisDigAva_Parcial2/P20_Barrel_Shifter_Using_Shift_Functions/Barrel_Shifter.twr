@@ -1,0 +1,100 @@
+--------------------------------------------------------------------------------
+Release 14.6 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Barrel_Shifter.twx Barrel_Shifter.ncd -o Barrel_Shifter.twr
+Barrel_Shifter.pcf -ucf Barrel_Shifter.ucf
+
+Design file:              Barrel_Shifter.ncd
+Physical constraint file: Barrel_Shifter.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-06-08)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Bus_A<0>       |Bus_B<0>       |    7.463|
+Bus_A<0>       |Bus_B<1>       |    7.859|
+Bus_A<0>       |Bus_B<2>       |    7.935|
+Bus_A<0>       |Bus_B<3>       |    7.529|
+Bus_A<1>       |Bus_B<1>       |    7.900|
+Bus_A<1>       |Bus_B<2>       |    7.842|
+Bus_A<1>       |Bus_B<3>       |    7.387|
+Bus_A<1>       |Bus_B<4>       |    7.411|
+Bus_A<2>       |Bus_B<2>       |    7.672|
+Bus_A<2>       |Bus_B<3>       |    7.463|
+Bus_A<2>       |Bus_B<4>       |    7.078|
+Bus_A<2>       |Bus_B<5>       |    7.249|
+Bus_A<3>       |Bus_B<3>       |    7.611|
+Bus_A<3>       |Bus_B<4>       |    7.255|
+Bus_A<3>       |Bus_B<5>       |    7.769|
+Bus_A<3>       |Bus_B<6>       |    7.933|
+Bus_A<4>       |Bus_B<4>       |    7.388|
+Bus_A<4>       |Bus_B<5>       |    7.432|
+Bus_A<4>       |Bus_B<6>       |    7.400|
+Bus_A<4>       |Bus_B<7>       |    7.270|
+Bus_A<5>       |Bus_B<0>       |    7.414|
+Bus_A<5>       |Bus_B<5>       |    7.250|
+Bus_A<5>       |Bus_B<6>       |    7.721|
+Bus_A<5>       |Bus_B<7>       |    7.280|
+Bus_A<6>       |Bus_B<0>       |    7.388|
+Bus_A<6>       |Bus_B<1>       |    7.650|
+Bus_A<6>       |Bus_B<6>       |    7.088|
+Bus_A<6>       |Bus_B<7>       |    6.850|
+Bus_A<7>       |Bus_B<0>       |    8.140|
+Bus_A<7>       |Bus_B<1>       |    8.350|
+Bus_A<7>       |Bus_B<2>       |    8.141|
+Bus_A<7>       |Bus_B<7>       |    7.631|
+n<0>           |Bus_B<0>       |   10.965|
+n<0>           |Bus_B<1>       |   10.870|
+n<0>           |Bus_B<2>       |   11.372|
+n<0>           |Bus_B<3>       |   11.128|
+n<0>           |Bus_B<4>       |   10.451|
+n<0>           |Bus_B<5>       |   10.350|
+n<0>           |Bus_B<6>       |   10.508|
+n<0>           |Bus_B<7>       |   10.428|
+n<1>           |Bus_B<0>       |   11.057|
+n<1>           |Bus_B<1>       |   11.270|
+n<1>           |Bus_B<2>       |   11.695|
+n<1>           |Bus_B<3>       |   11.384|
+n<1>           |Bus_B<4>       |   10.939|
+n<1>           |Bus_B<5>       |   10.699|
+n<1>           |Bus_B<6>       |   11.093|
+n<1>           |Bus_B<7>       |   10.680|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Oct 17 07:39:20 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 168 MB
+
+
+

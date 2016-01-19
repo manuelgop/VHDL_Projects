@@ -1,0 +1,74 @@
+#:C19    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.68d
+#Current Working Directory:
+#:D   D:\Projects_SisDigAva\P06_Mux4t01
+#Date/Time:
+#:T   Thu Aug 29 09:29:11 2013
+#------------------------------
+	#Reading Mux4to1.ncd...
+	#Loading device for application Rf_Device from file '3s100e.nph' in environment C:\Xilinx\14.6\ISE_DS\ISE\.
+	#   "Mux4to1" is an NCD, version 3.2, device xc3s100e, package cp132, speed -5
+	#Design creation date: 2013.08.29.14.28.40
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+select -k comp 'I<0>'
+	#3
+hilite -c tomato
+	#4
+unhilite
+	#5
+unselect comp 'I<0>'
+	#6
+select -k comp 'I<1>'
+	#7
+unselect -all
+	#8
+unselect -all
+	#9
+select comp 'I<1>'
+	#comp "I<1>",  site "L3",  bonded type = IBUF,  pad name = PAD83,  pin name = L3  (RPM grid X3Y4)
+	#10
+unselect -all
+	#11
+select comp 'I<1>'
+	#comp "I<1>",  site "L3",  bonded type = IBUF,  pad name = PAD83,  pin name = L3  (RPM grid X3Y4)
+	#12
+unselect -all
+	#13
+select comp 'I<1>'
+	#comp "I<1>",  site "L3",  bonded type = IBUF,  pad name = PAD83,  pin name = L3  (RPM grid X3Y4)
+	#14
+unselect -all
+	#15
+select comp 'I<1>'
+	#comp "I<1>",  site "L3",  bonded type = IBUF,  pad name = PAD83,  pin name = L3  (RPM grid X3Y4)
+	#16
+post block
+	#17
+unselect comp 'I<1>'
+	#18
+select -k comp 'Y_OBUF'
+	#19
+unselect -all
+	#20
+select comp 'Y_OBUF'
+	#comp "Y_OBUF",  site "SLICE_X13Y7",  type = SLICEL  (RPM grid X31Y9)
+	#21
+unselect -all
+	#22
+select comp 'Y_OBUF'
+	#comp "Y_OBUF",  site "SLICE_X13Y7",  type = SLICEL  (RPM grid X31Y9)
+	#23
+post block
+	#<G>=((~A1*A2)+(A1*A3)); bel <Mmux_Y_4>.
+	#<G>=((~A1*A2)+(A1*A3)); bel <Mmux_Y_4>.
+	#<G>=((~A1*A2)+(A1*A3)); bel <Mmux_Y_4>.
+	#<G>=((~A1*A2)+(A1*A3)); bel <Mmux_Y_4>.
+	#<G>=((~A1*A2)+(A1*A3)); bel <Mmux_Y_4>.
+	#WARNING:FPGAEditor:3 - You cannot make logic changes in the current edit mode.
+	#<F>=((~A3*A4)+(A3*A1)); bel <Mmux_Y_3>.

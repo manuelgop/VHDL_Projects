@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Projectos_VHDL/P27_ROM_Memory/ROM_Memory_vtb_isim_beh.exe" -prj "C:/Projectos_VHDL/P27_ROM_Memory/ROM_Memory_vtb_beh.prj" "work.ROM_Memory_vtb" 

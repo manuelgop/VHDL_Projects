@@ -1,0 +1,6 @@
+V3 3
+FL D:/Projects_SisDigAva/P06_Mux_4to1/Mux_4to1.vhd 2013/08/28.12:51:26 P.68d
+EN work/Mux_4to1 1377712289 FL D:/Projects_SisDigAva/P06_Mux_4to1/Mux_4to1.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/Mux_4to1/Behavioral 1377712290 \
+      FL D:/Projects_SisDigAva/P06_Mux_4to1/Mux_4to1.vhd EN work/Mux_4to1 1377712289

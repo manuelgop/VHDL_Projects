@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P21_Verilog_FFs/FFs.xst" -ofn "D:/Projects_SisDigAva/P21_Verilog_FFs/FFs.syr" 

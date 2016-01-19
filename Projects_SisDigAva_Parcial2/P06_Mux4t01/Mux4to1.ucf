@@ -1,0 +1,16 @@
+
+
+# PlanAhead Generated physical constraints 
+
+# Define the input pins
+NET "I<0>" LOC = P11;
+NET "I<1>" LOC = L3;
+NET "I<2>" LOC = K3;
+NET "I<3>" LOC = B4;
+
+# Define the Select pins
+NET "Sel<1>" LOC = N3;
+NET "Sel<0>" LOC = E2;
+
+# Define the Output pin
+NET "Y" LOC = M5;

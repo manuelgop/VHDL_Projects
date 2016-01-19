@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Projectos_VHDL/FinalExam_Conv_to_integer/Conv_to_integer.xst" -ofn "C:/Projectos_VHDL/FinalExam_Conv_to_integer/Conv_to_integer.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/FinalExam_Conv_to_integer/Conv_to_integer.xst" -ofn "C:/Projectos_VHDL/FinalExam_Conv_to_integer/Conv_to_integer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 Conv_to_integer.ngc Conv_to_integer.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Conv_to_integer_map.ncd Conv_to_integer.ngd Conv_to_integer.pcf 
+par -w -intstyle ise -ol high -t 1 Conv_to_integer_map.ncd Conv_to_integer.ncd Conv_to_integer.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Conv_to_integer.twx Conv_to_integer.ncd -o Conv_to_integer.twr Conv_to_integer.pcf 
+bitgen -intstyle ise -f Conv_to_integer.ut Conv_to_integer.ncd 

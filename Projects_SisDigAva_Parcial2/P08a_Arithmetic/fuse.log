@@ -1,0 +1,21 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/Projects_SisDigAva/P08a_Arithmetic/Arithmetic_vtb_isim_beh.exe -prj D:/Projects_SisDigAva/P08a_Arithmetic/Arithmetic_vtb_beh.prj work.Arithmetic_vtb 
+ISim P.68d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Projects_SisDigAva/P08a_Arithmetic/Arithmetic.vhd" into library work
+Parsing VHDL file "D:/Projects_SisDigAva/P08a_Arithmetic/Arithmetic_vtb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 121396 KB
+Fuse CPU Usage: 623 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling architecture behavioral of entity Arithmetic [arithmetic_default]
+Compiling architecture behavior of entity arithmetic_vtb
+Time Resolution for simulation is 1ps.
+Compiled 6 VHDL Units
+Built simulation executable D:/Projects_SisDigAva/P08a_Arithmetic/Arithmetic_vtb_isim_beh.exe
+Fuse Memory Usage: 135268 KB
+Fuse CPU Usage: 920 ms

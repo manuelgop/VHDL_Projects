@@ -1,0 +1,8 @@
+vhdl work "C:\Projectos_VHDL\Final_Timer\SelAnodo.vhd"
+vhdl work "C:\Projectos_VHDL\Final_Timer\RefreshDisplay.vhd"
+vhdl work "C:\Projectos_VHDL\Final_Timer\Mux4to1.vhd"
+vhdl work "C:\Projectos_VHDL\Final_Timer\DecBCD7Seg.vhd"
+vhdl work "C:\Projectos_VHDL\Final_Timer\Cont0a99.vhd"
+vhdl work "C:\Projectos_VHDL\Final_Timer\Cont0a3.vhd"
+vhdl work "C:\Projectos_VHDL\Final_Timer\Clk1Hz.vhd"
+vhdl work "C:\Projectos_VHDL\Final_Timer\Final_timer.vhd"

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P11_Ones_Counter/Ones.xst" -ofn "C:/Projectos_VHDL/P11_Ones_Counter/Ones.syr" 

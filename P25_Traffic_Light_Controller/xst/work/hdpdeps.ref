@@ -1,0 +1,7 @@
+V3 3
+FL D:/Projects_SisDigAva/P25_Traffic_Light_Controller/tlc.vhd 2013/10/30.21:42:59 P.68d
+EN work/tlc 1383191010 \
+      FL D:/Projects_SisDigAva/P25_Traffic_Light_Controller/tlc.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/tlc/Behavioral 1383191011 \
+      FL D:/Projects_SisDigAva/P25_Traffic_Light_Controller/tlc.vhd EN work/tlc 1383191010

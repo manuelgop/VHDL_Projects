@@ -1,0 +1,3 @@
+vhdl isim_temp "ipcore_dir/Memory.vhd"
+vhdl isim_temp "Memory_IP.vhd"
+vhdl isim_temp "Memory_vtb.vhd"

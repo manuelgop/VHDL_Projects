@@ -1,0 +1,7 @@
+V3 3
+FL C:/Projectos_VHDL/Contadordeunos/ContadorUnos.vhd 2013/09/11.18:49:29 P.68d
+EN work/Ones_Counter 1379955457 \
+      FL C:/Projectos_VHDL/Contadordeunos/ContadorUnos.vhd PB ieee/std_logic_1164 1370735607 \
+      PB ieee/NUMERIC_STD 1370735611 PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/Ones_Counter/Behavioral 1379955458 \
+      FL C:/Projectos_VHDL/Contadordeunos/ContadorUnos.vhd EN work/Ones_Counter 1379955457

@@ -1,0 +1,2 @@
+vhdl isim_temp "Conv_to_integer.vhd"
+vhdl isim_temp "Conv_to_integer_vtb.vhd"

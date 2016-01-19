@@ -1,0 +1,2 @@
+vhdl work "Sniffer.vhd"
+vhdl work "Sniffer_vtb.vhd"

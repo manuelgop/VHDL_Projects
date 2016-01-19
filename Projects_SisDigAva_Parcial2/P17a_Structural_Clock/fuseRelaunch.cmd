@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Projects_SisDigAva/P17a_Structural_Clock/Mux4to1_vtb_isim_beh.exe" -prj "D:/Projects_SisDigAva/P17a_Structural_Clock/Mux4to1_vtb_beh.prj" "work.Mux4to1_vtb" 

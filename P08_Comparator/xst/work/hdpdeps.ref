@@ -1,0 +1,6 @@
+V3 3
+FL C:/Projectos_VHDL/P08_Comparator/Comparator.vhd 2013/09/04.17:40:50 P.68d
+EN work/Comparator 1378334457 FL C:/Projectos_VHDL/P08_Comparator/Comparator.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/Comparator/Behavioral 1378334458 \
+      FL C:/Projectos_VHDL/P08_Comparator/Comparator.vhd EN work/Comparator 1378334457

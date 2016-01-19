@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Thu Aug 22 08:09:27 2013
+# Process ID: 1504
+# Log file: D:/Projects_SisDigAva/P02a_Mayority_Detector_VHDL/planAhead_run_2/planAhead.log
+# Journal file: D:/Projects_SisDigAva/P02a_Mayority_Detector_VHDL/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/Projects_SisDigAva/P02a_Mayority_Detector_VHDL/pa.fromNetlist.tcl
+set_property iostandard LVCMOS33 [get_ports [list B]]
+startgroup
+set_property package_pin M5 [get_ports B]
+endgroup
+save_constraints

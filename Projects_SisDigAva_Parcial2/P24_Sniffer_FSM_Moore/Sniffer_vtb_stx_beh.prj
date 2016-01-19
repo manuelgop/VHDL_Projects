@@ -1,0 +1,2 @@
+vhdl isim_temp "Sniffer.vhd"
+vhdl isim_temp "Sniffer_vtb.vhd"

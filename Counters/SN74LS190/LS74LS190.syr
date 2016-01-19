@@ -1,0 +1,408 @@
+Release 14.6 - xst P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: LS74LS190.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LS74LS190.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LS74LS190"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : LS74LS190
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Projectos_VHDL/SN74LS190/LS74LS190.vhd" in Library work.
+Entity <ls74ls190> compiled.
+Entity <ls74ls190> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <LS74LS190> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <LS74LS190> in library <work> (Architecture <behavioral>).
+Entity <LS74LS190> analyzed. Unit <LS74LS190> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <LS74LS190>.
+    Related source file is "C:/Projectos_VHDL/SN74LS190/LS74LS190.vhd".
+    Found 16x7-bit ROM for signal <Seg>.
+    Found 1-bit register for signal <Clk_1Hz>.
+    Found 4-bit register for signal <Count_int>.
+    Found 4-bit addsub for signal <Count_int$share0000>.
+    Found 25-bit up counter for signal <FreqCounter>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   5 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <LS74LS190> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 1
+ 4-bit addsub                                          : 1
+# Counters                                             : 1
+ 25-bit up counter                                     : 1
+# Registers                                            : 2
+ 1-bit register                                        : 1
+ 4-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x7-bit ROM                                          : 1
+# Adders/Subtractors                                   : 1
+ 4-bit addsub                                          : 1
+# Counters                                             : 1
+ 25-bit up counter                                     : 1
+# Registers                                            : 5
+ Flip-Flops                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <LS74LS190> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LS74LS190, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 30
+ Flip-Flops                                            : 30
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : LS74LS190.ngr
+Top Level Output File Name         : LS74LS190
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 15
+
+Cell Usage :
+# BELS                             : 131
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 25
+#      LUT2                        : 26
+#      LUT3                        : 1
+#      LUT4                        : 17
+#      LUT4_L                      : 1
+#      MUXCY                       : 31
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 25
+# FlipFlops/Latches                : 30
+#      FDC                         : 26
+#      FDCE                        : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 3
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                       40  out of    960     4%  
+ Number of Slice Flip Flops:             30  out of   1920     1%  
+ Number of 4 input LUTs:                 72  out of   1920     3%  
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of     83    18%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk100Mhz                          | BUFGP                  | 30    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+Rst                                | IBUF                   | 30    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.200ns (Maximum Frequency: 192.309MHz)
+   Minimum input arrival time before clock: 3.526ns
+   Maximum output required time after clock: 5.640ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk100Mhz'
+  Clock period: 5.200ns (frequency: 192.309MHz)
+  Total number of paths / destination ports: 994 / 34
+-------------------------------------------------------------------------
+Delay:               5.200ns (Levels of Logic = 26)
+  Source:            FreqCounter_1 (FF)
+  Destination:       FreqCounter_24 (FF)
+  Source Clock:      Clk100Mhz rising
+  Destination Clock: Clk100Mhz rising
+
+  Data Path: FreqCounter_1 to FreqCounter_24
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.514   0.532  FreqCounter_1 (FreqCounter_1)
+     LUT1:I0->O            1   0.612   0.000  Mcount_FreqCounter_cy<1>_rt (Mcount_FreqCounter_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  Mcount_FreqCounter_cy<1> (Mcount_FreqCounter_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<2> (Mcount_FreqCounter_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<3> (Mcount_FreqCounter_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<4> (Mcount_FreqCounter_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<5> (Mcount_FreqCounter_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<6> (Mcount_FreqCounter_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<7> (Mcount_FreqCounter_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<8> (Mcount_FreqCounter_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<9> (Mcount_FreqCounter_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<10> (Mcount_FreqCounter_cy<10>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<11> (Mcount_FreqCounter_cy<11>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<12> (Mcount_FreqCounter_cy<12>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<13> (Mcount_FreqCounter_cy<13>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<14> (Mcount_FreqCounter_cy<14>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<15> (Mcount_FreqCounter_cy<15>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<16> (Mcount_FreqCounter_cy<16>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<17> (Mcount_FreqCounter_cy<17>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<18> (Mcount_FreqCounter_cy<18>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<19> (Mcount_FreqCounter_cy<19>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<20> (Mcount_FreqCounter_cy<20>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<21> (Mcount_FreqCounter_cy<21>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_FreqCounter_cy<22> (Mcount_FreqCounter_cy<22>)
+     MUXCY:CI->O           0   0.052   0.000  Mcount_FreqCounter_cy<23> (Mcount_FreqCounter_cy<23>)
+     XORCY:CI->O           1   0.699   0.426  Mcount_FreqCounter_xor<24> (Result<24>)
+     LUT2:I1->O            1   0.612   0.000  Mcount_FreqCounter_eqn_241 (Mcount_FreqCounter_eqn_24)
+     FDC:D                     0.268          FreqCounter_24
+    ----------------------------------------
+    Total                      5.200ns (4.242ns logic, 0.958ns route)
+                                       (81.6% logic, 18.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk100Mhz'
+  Total number of paths / destination ports: 12 / 7
+-------------------------------------------------------------------------
+Offset:              3.526ns (Levels of Logic = 3)
+  Source:            UD (PAD)
+  Destination:       Count_int_3 (FF)
+  Destination Clock: Clk100Mhz rising
+
+  Data Path: UD to Count_int_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.106   0.568  UD_IBUF (UD_IBUF)
+     LUT4:I1->O            1   0.612   0.360  Count_int_mux0002<0>3_SW1 (N3)
+     LUT4:I3->O            1   0.612   0.000  Count_int_mux0002<0>3 (Count_int_mux0002<0>)
+     FDCE:D                    0.268          Count_int_3
+    ----------------------------------------
+    Total                      3.526ns (2.598ns logic, 0.928ns route)
+                                       (73.7% logic, 26.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk100Mhz'
+  Total number of paths / destination ports: 28 / 7
+-------------------------------------------------------------------------
+Offset:              5.640ns (Levels of Logic = 2)
+  Source:            Count_int_0 (FF)
+  Destination:       Seg<3> (PAD)
+  Source Clock:      Clk100Mhz rising
+
+  Data Path: Count_int_0 to Seg<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            13   0.514   0.988  Count_int_0 (Count_int_0)
+     LUT4:I0->O            1   0.612   0.357  Mrom_Seg31 (Seg_3_OBUF)
+     OBUF:I->O                 3.169          Seg_3_OBUF (Seg<3>)
+    ----------------------------------------
+    Total                      5.640ns (4.295ns logic, 1.345ns route)
+                                       (76.2% logic, 23.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.03 secs
+ 
+--> 
+
+Total memory usage is 208104 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

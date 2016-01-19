@@ -1,0 +1,9 @@
+
+
+NET "A" LOC = U9;
+NET "Y" LOC = T8;
+
+# PlanAhead Generated IO constraints 
+
+NET "A" IOSTANDARD = LVCMOS33;
+NET "Y" IOSTANDARD = LVCMOS33;

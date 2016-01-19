@@ -1,0 +1,69 @@
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xa7a100t-csg324-2I Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc3s100e-cp132-5 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+par -w -intstyle ise -ol high -t 1 Barrel_Shifters_map.ncd Barrel_Shifters.ncd Barrel_Shifters.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf 
+bitgen -intstyle ise -f Barrel_Shifters.ut Barrel_Shifters.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc3s100e-cp132-5 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+par -w -intstyle ise -ol high -t 1 Barrel_Shifters_map.ncd Barrel_Shifters.ncd Barrel_Shifters.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf 
+bitgen -intstyle ise -f Barrel_Shifters.ut Barrel_Shifters.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc3s100e-cp132-5 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+par -w -intstyle ise -ol high -t 1 Barrel_Shifters_map.ncd Barrel_Shifters.ncd Barrel_Shifters.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf 
+bitgen -intstyle ise -f Barrel_Shifters.ut Barrel_Shifters.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc3s100e-cp132-5 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+par -w -intstyle ise -ol high -t 1 Barrel_Shifters_map.ncd Barrel_Shifters.ncd Barrel_Shifters.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf 
+bitgen -intstyle ise -f Barrel_Shifters.ut Barrel_Shifters.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc3s100e-cp132-5 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+par -w -intstyle ise -ol high -t 1 Barrel_Shifters_map.ncd Barrel_Shifters.ncd Barrel_Shifters.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf 
+bitgen -intstyle ise -f Barrel_Shifters.ut Barrel_Shifters.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc3s100e-cp132-5 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+par -w -intstyle ise -ol high -t 1 Barrel_Shifters_map.ncd Barrel_Shifters.ncd Barrel_Shifters.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf 
+bitgen -intstyle ise -f Barrel_Shifters.ut Barrel_Shifters.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc3s100e-cp132-5 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+par -w -intstyle ise -ol high -t 1 Barrel_Shifters_map.ncd Barrel_Shifters.ncd Barrel_Shifters.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf 
+bitgen -intstyle ise -f Barrel_Shifters.ut Barrel_Shifters.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc3s100e-cp132-5 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+par -w -intstyle ise -ol high -t 1 Barrel_Shifters_map.ncd Barrel_Shifters.ncd Barrel_Shifters.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf 
+bitgen -intstyle ise -f Barrel_Shifters.ut Barrel_Shifters.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.xst" -ofn "C:/Projectos_VHDL/P18_Barrel_Shifters/Barrel_Shifters.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc3s100e-cp132-5 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifters.ucf -p xc3s100e-cp132-5 Barrel_Shifters.ngc Barrel_Shifters.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Barrel_Shifters_map.ncd Barrel_Shifters.ngd Barrel_Shifters.pcf 
+par -w -intstyle ise -ol high -t 1 Barrel_Shifters_map.ncd Barrel_Shifters.ncd Barrel_Shifters.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Barrel_Shifters.twx Barrel_Shifters.ncd -o Barrel_Shifters.twr Barrel_Shifters.pcf -ucf Barrel_Shifters.ucf 
+bitgen -intstyle ise -f Barrel_Shifters.ut Barrel_Shifters.ncd 

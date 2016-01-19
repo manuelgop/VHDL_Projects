@@ -1,0 +1,2 @@
+vhdl isim_temp "ROM_Memory.vhd"
+vhdl isim_temp "ROM_Memory_vtb.vhd"

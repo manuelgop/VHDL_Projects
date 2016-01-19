@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/Projects_SisDigAva/P99_Mux_Verilog/Mux_Verilog_vtf_isim_beh.exe" -prj "D:/Projects_SisDigAva/P99_Mux_Verilog/Mux_Verilog_vtf_beh.prj" "work.Mux_Verilog_vtf" "work.glbl" 

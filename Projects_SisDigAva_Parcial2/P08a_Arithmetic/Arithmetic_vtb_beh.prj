@@ -1,0 +1,2 @@
+vhdl work "Arithmetic.vhd"
+vhdl work "Arithmetic_vtb.vhd"

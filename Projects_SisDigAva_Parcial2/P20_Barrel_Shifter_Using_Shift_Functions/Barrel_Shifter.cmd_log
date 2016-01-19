@@ -1,0 +1,42 @@
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.xst" -ofn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifter.ucf -p xc6slx16-csg324-3 Barrel_Shifter.ngc Barrel_Shifter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Barrel_Shifter_map.ncd Barrel_Shifter.ngd Barrel_Shifter.pcf 
+par -w -intstyle ise -ol high -mt off Barrel_Shifter_map.ncd Barrel_Shifter.ncd Barrel_Shifter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Barrel_Shifter.twx Barrel_Shifter.ncd -o Barrel_Shifter.twr Barrel_Shifter.pcf -ucf Barrel_Shifter.ucf 
+bitgen -intstyle ise -f Barrel_Shifter.ut Barrel_Shifter.ncd 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.xst" -ofn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifter.ucf -p xc6slx16-csg324-3 Barrel_Shifter.ngc Barrel_Shifter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Barrel_Shifter_map.ncd Barrel_Shifter.ngd Barrel_Shifter.pcf 
+par -w -intstyle ise -ol high -mt off Barrel_Shifter_map.ncd Barrel_Shifter.ncd Barrel_Shifter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Barrel_Shifter.twx Barrel_Shifter.ncd -o Barrel_Shifter.twr Barrel_Shifter.pcf -ucf Barrel_Shifter.ucf 
+bitgen -intstyle ise -f Barrel_Shifter.ut Barrel_Shifter.ncd 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.xst" -ofn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.xst" -ofn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.xst" -ofn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.xst" -ofn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.xst" -ofn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifter.ucf -p xc6slx16-csg324-3 Barrel_Shifter.ngc Barrel_Shifter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Barrel_Shifter_map.ncd Barrel_Shifter.ngd Barrel_Shifter.pcf 
+par -w -intstyle ise -ol high -mt off Barrel_Shifter_map.ncd Barrel_Shifter.ncd Barrel_Shifter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Barrel_Shifter.twx Barrel_Shifter.ncd -o Barrel_Shifter.twr Barrel_Shifter.pcf -ucf Barrel_Shifter.ucf 
+bitgen -intstyle ise -f Barrel_Shifter.ut Barrel_Shifter.ncd 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.xst" -ofn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.xst" -ofn "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifter.ucf -p xc6slx16-csg324-3 Barrel_Shifter.ngc Barrel_Shifter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Barrel_Shifter_map.ncd Barrel_Shifter.ngd Barrel_Shifter.pcf 
+par -w -intstyle ise -ol high -mt off Barrel_Shifter_map.ncd Barrel_Shifter.ncd Barrel_Shifter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Barrel_Shifter.twx Barrel_Shifter.ncd -o Barrel_Shifter.twr Barrel_Shifter.pcf -ucf Barrel_Shifter.ucf 
+bitgen -intstyle ise -f Barrel_Shifter.ut Barrel_Shifter.ncd 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P20_VHDL_Shift_Functions/Barrel_Shifter.xst" -ofn "D:/Projects_SisDigAva/P20_VHDL_Shift_Functions/Barrel_Shifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifter.ucf -p xc6slx16-csg324-3 Barrel_Shifter.ngc Barrel_Shifter.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifter.ucf -p xc6slx16-csg324-3 Barrel_Shifter.ngc Barrel_Shifter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Barrel_Shifter_map.ncd Barrel_Shifter.ngd Barrel_Shifter.pcf 
+par -w -intstyle ise -ol high -mt off Barrel_Shifter_map.ncd Barrel_Shifter.ncd Barrel_Shifter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Barrel_Shifter.twx Barrel_Shifter.ncd -o Barrel_Shifter.twr Barrel_Shifter.pcf -ucf Barrel_Shifter.ucf 
+bitgen -intstyle ise -f Barrel_Shifter.ut Barrel_Shifter.ncd 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P20_VHDL_Shift_Functions/Barrel_Shifter.xst" -ofn "D:/Projects_SisDigAva/P20_VHDL_Shift_Functions/Barrel_Shifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Barrel_Shifter.ucf -p xc6slx16-csg324-3 Barrel_Shifter.ngc Barrel_Shifter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Barrel_Shifter_map.ncd Barrel_Shifter.ngd Barrel_Shifter.pcf 
+par -w -intstyle ise -ol high -mt off Barrel_Shifter_map.ncd Barrel_Shifter.ncd Barrel_Shifter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Barrel_Shifter.twx Barrel_Shifter.ncd -o Barrel_Shifter.twr Barrel_Shifter.pcf -ucf Barrel_Shifter.ucf 
+bitgen -intstyle ise -f Barrel_Shifter.ut Barrel_Shifter.ncd 

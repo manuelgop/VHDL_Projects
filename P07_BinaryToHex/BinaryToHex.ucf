@@ -1,0 +1,22 @@
+#Comment
+#Define input pines
+
+NET "Bin<0>" LOC = B4;#SW0
+NET "Bin<1>" LOC = K3;#SW1
+NET "Bin<2>" LOC = L3;#SW2
+NET "Bin<3>" LOC = P11;#SW3
+
+
+#DEFINE output pines
+NET "anodos<0>" LOC =F12;
+NET "anodos<1>" LOC =J12;
+NET "anodos<2>" LOC =M13;
+NET "anodos<3>" LOC =K14;
+
+NET "Hex<0>" LOC =L14;
+NET "Hex<1>" LOC =H12;
+NET "Hex<2>" LOC =N14;
+NET "Hex<3>" LOC =N11;
+NET "Hex<4>" LOC =P12;
+NET "Hex<5>" LOC =L13;
+NET "Hex<6>" LOC =M12;

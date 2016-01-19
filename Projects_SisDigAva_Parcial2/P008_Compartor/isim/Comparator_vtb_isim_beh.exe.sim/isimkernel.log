@@ -1,0 +1,28 @@
+Command line:
+   Comparator_vtb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60642
+
+Thu Sep 05 07:28:40 2013
+
+
+ Elaboration Time: 0.265202 sec
+
+ Current Memory Usage: 840.97 Meg
+
+ Total Signals          : 10
+ Total Nets             : 11
+ Total Signal Drivers   : 5
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 4
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 389
+
+ Total Simulation Time: 0.265202 sec
+
+ Current Memory Usage: 1156.07 Meg
+
+Thu Sep 05 07:30:00 2013
+

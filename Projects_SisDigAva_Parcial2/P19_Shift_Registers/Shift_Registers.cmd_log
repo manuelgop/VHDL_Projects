@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P19_Shift_Registers/Shift_Registers.xst" -ofn "D:/Projects_SisDigAva/P19_Shift_Registers/Shift_Registers.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Shift_Register.ucf -p xc6slx16-csg324-3 Shift_Registers.ngc Shift_Registers.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Shift_Registers_map.ncd Shift_Registers.ngd Shift_Registers.pcf 
+par -w -intstyle ise -ol high -mt off Shift_Registers_map.ncd Shift_Registers.ncd Shift_Registers.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Shift_Registers.twx Shift_Registers.ncd -o Shift_Registers.twr Shift_Registers.pcf -ucf Shift_Register.ucf 
+bitgen -intstyle ise -f Shift_Registers.ut Shift_Registers.ncd 

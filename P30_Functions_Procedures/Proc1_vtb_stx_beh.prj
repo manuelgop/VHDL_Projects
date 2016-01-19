@@ -1,0 +1,2 @@
+vhdl isim_temp "Proc1.vhd"
+vhdl isim_temp "Proc1_vtb.vhd"

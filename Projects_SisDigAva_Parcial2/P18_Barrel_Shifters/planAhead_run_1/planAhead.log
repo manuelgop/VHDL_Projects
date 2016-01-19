@@ -1,0 +1,141 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Wed Oct 16 11:02:48 2013
+# Process ID: 6084
+# Log file: D:/Projects_SisDigAva/P18_Barrel_Shifters/planAhead_run_1/planAhead.log
+# Journal file: D:/Projects_SisDigAva/P18_Barrel_Shifters/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/Projects_SisDigAva/P18_Barrel_Shifters/pa.fromNetlist.tcl
+# create_project -name P18_Barrel_Shifters -dir "D:/Projects_SisDigAva/P18_Barrel_Shifters/planAhead_run_1" -part xc6slx16csg324-3
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/Projects_SisDigAva/P18_Barrel_Shifters} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Barrel_Shifter.ucf" [current_fileset -constrset]
+Adding file 'D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.ucf' to fileset 'constrs_1'
+# add_files [list {Barrel_Shifter.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16csg324-3
+Release 14.6 - ngc2edif P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Barrel_Shifter.ngc ...
+WARNING:NetListWriters:298 - No output is written to Barrel_Shifter.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Barrel_Shifter.edif ...
+ngc2edif: Total memory usage is 78776 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/P18_Barrel_Shifters.data/cache/Barrel_Shifter_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/P18_Barrel_Shifters.data/cache/Barrel_Shifter_ngc_zx.edif]
+Loading clock regions from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.6/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.6/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.ucf]
+Finished Parsing UCF File [D:/Projects_SisDigAva/P18_Barrel_Shifters/Barrel_Shifter.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 1944d5f1
+link_design: Time (s): elapsed = 00:00:18 . Memory (MB): peak = 612.809 ; gain = 193.828
+startgroup
+set_property package_pin T5 [get_ports {Bus_A[7]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {Bus_A[6]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {Bus_A[5]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Bus_A[2]}]]
+startgroup
+set_property package_pin M8 [get_ports {Bus_A[4]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {Bus_A[3]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {Bus_A[2]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {Bus_A[1]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Bus_A[0]}]]
+startgroup
+set_property package_pin U8 [get_ports {Bus_A[5]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {Bus_A[4]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {Bus_A[2]}]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports {Bus_A[0]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {Bus_A[3]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {Bus_A[2]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {Bus_A[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {Bus_A[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Bus_B[6]}]]
+startgroup
+set_property package_pin T11 [get_ports {Bus_B[7]}]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports {Bus_B[6]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Bus_B[1]}]]
+startgroup
+set_property package_pin N11 [get_ports {Bus_B[5]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Bus_B[3]}]]
+set_property package_pin "" [get_ports [list  {Bus_B[2]}]]
+startgroup
+set_property package_pin M11 [get_ports {Bus_B[4]}]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {Bus_B[3]}]
+endgroup
+startgroup
+set_property package_pin U15 [get_ports {Bus_B[2]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {Bus_B[1]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {Bus_B[0]}]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See D:/Projects_SisDigAva/P18_Barrel_Shifters\planAhead_pid6084.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Oct 16 11:06:41 2013...
+INFO: [Common 17-83] Releasing license: PlanAhead

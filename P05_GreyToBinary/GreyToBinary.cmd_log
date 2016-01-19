@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P05_GreyToBinary/GreyToBinary.xst" -ofn "C:/Projectos_VHDL/P05_GreyToBinary/GreyToBinary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GreyToBinary.ucf -p xc3s100e-cp132-5 GreyToBinary.ngc GreyToBinary.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o GreyToBinary_map.ncd GreyToBinary.ngd GreyToBinary.pcf 
+par -w -intstyle ise -ol high -t 1 GreyToBinary_map.ncd GreyToBinary.ncd GreyToBinary.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GreyToBinary.twx GreyToBinary.ncd -o GreyToBinary.twr GreyToBinary.pcf -ucf GreyToBinary.ucf 
+bitgen -intstyle ise -f GreyToBinary.ut GreyToBinary.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/P05_GreyToBinary/GreyToBinary.xst" -ofn "C:/Projectos_VHDL/P05_GreyToBinary/GreyToBinary.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GreyToBinary.ucf -p xc3s100e-cp132-5 GreyToBinary.ngc GreyToBinary.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o GreyToBinary_map.ncd GreyToBinary.ngd GreyToBinary.pcf 
+par -w -intstyle ise -ol high -t 1 GreyToBinary_map.ncd GreyToBinary.ncd GreyToBinary.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GreyToBinary.twx GreyToBinary.ncd -o GreyToBinary.twr GreyToBinary.pcf -ucf GreyToBinary.ucf 
+bitgen -intstyle ise -f GreyToBinary.ut GreyToBinary.ncd 

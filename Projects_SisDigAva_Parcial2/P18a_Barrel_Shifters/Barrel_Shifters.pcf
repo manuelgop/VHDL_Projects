@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.68d on Wed Oct 16 18:08:32 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Swap" LOCATE = SITE "B8" LEVEL 1;
+COMP "Bus_A<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "Bus_A<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "Bus_A<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "Bus_A<3>" LOCATE = SITE "M8" LEVEL 1;
+COMP "Bus_B<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "Bus_A<4>" LOCATE = SITE "N8" LEVEL 1;
+COMP "Bus_B<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "Bus_A<5>" LOCATE = SITE "U8" LEVEL 1;
+COMP "Bus_B<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "Bus_A<6>" LOCATE = SITE "V8" LEVEL 1;
+COMP "Bus_B<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "Bus_A<7>" LOCATE = SITE "T5" LEVEL 1;
+COMP "Bus_B<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "Bus_B<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "Bus_B<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "Bus_B<7>" LOCATE = SITE "T11" LEVEL 1;
+SCHEMATIC END;
+

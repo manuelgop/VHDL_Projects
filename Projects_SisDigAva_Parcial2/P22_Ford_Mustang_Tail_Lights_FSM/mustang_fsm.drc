@@ -1,0 +1,8 @@
+Release 14.6 Drc P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Oct 23 12:37:18 2013
+
+drc -z Mustang_FSM.ncd Mustang_FSM.pcf
+
+DRC detected 0 errors and 0 warnings.

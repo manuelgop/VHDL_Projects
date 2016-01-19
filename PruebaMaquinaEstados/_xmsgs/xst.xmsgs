@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="3312" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">88</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">InOut1</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">88</arg>. <arg fmt="%s" index="3">InOut1</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">89</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">inOut2</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">89</arg>. <arg fmt="%s" index="3">inOut2</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">93</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">Inout2</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">93</arg>. <arg fmt="%s" index="3">Inout2</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">97</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">count2</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">97</arg>. <arg fmt="%s" index="3">count2</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="813" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">84</arg>. Enumerated value <arg fmt="%s" index="3">intout1</arg> is missing in <arg fmt="%s" index="4">case</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1402" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">111</arg>. Object <arg fmt="%s" index="3">PingIn</arg> of mode <arg fmt="%s" index="4">IN</arg> can not be updated.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">112</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">InOut1</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">112</arg>. <arg fmt="%s" index="3">InOut1</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="1402" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">112</arg>. Object <arg fmt="%s" index="3">PingIn</arg> of mode <arg fmt="%s" index="4">IN</arg> can not be updated.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">113</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">InOut2</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">113</arg>. <arg fmt="%s" index="3">InOut2</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="1402" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">113</arg>. Object <arg fmt="%s" index="3">PingIn</arg> of mode <arg fmt="%s" index="4">IN</arg> can not be updated.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3312" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">113</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">cont2</arg>&apos;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">113</arg>. <arg fmt="%s" index="3">cont2</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="1402" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">114</arg>. Object <arg fmt="%s" index="3">PingIn</arg> of mode <arg fmt="%s" index="4">IN</arg> can not be updated.
+</msg>
+
+<msg type="error" file="HDLParsers" num="813" delta="old" >&quot;<arg fmt="%s" index="1">C:/Projectos_VHDL/PruebaMaquinaEstados/Maquina.vhd</arg>&quot; Line <arg fmt="%d" index="2">111</arg>. Enumerated value <arg fmt="%s" index="3">intout1</arg> is missing in <arg fmt="%s" index="4">case</arg>.
+</msg>
+
+</messages>
+

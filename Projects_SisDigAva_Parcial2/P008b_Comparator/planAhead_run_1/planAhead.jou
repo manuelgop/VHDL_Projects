@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Wed Sep 04 18:08:13 2013
+# Process ID: 2344
+# Log file: D:/Projects_SisDigAva/P008b_Comparator/planAhead_run_1/planAhead.log
+# Journal file: D:/Projects_SisDigAva/P008b_Comparator/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/Projects_SisDigAva/P008b_Comparator/pa.fromNetlist.tcl
+startgroup
+set_property package_pin T5 [get_ports {A[3]}]
+endgroup
+save_constraints

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P20_Verilog_Gates/Gates.xst" -ofn "D:/Projects_SisDigAva/P20_Verilog_Gates/Gates.syr" 

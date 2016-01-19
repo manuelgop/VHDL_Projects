@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Projectos_VHDL\P01_Mayority_Detector_SCH\Mayority_Detector.ncd
+OUTFILE=C:\Projectos_VHDL\P01_Mayority_Detector_SCH\Mayority_Detector.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=C:\Projectos_VHDL\P01_Mayority_Detector_SCH
+LICENSE=WebPack
+USER_INFO=200310400_0_0_151

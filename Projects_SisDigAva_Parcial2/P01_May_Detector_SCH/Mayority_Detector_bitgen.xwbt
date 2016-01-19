@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Project_SisDigAva\P01_May_Detector_SCH\Mayority_Detector.ncd
+OUTFILE=D:\Project_SisDigAva\P01_May_Detector_SCH\Mayority_Detector.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\Project_SisDigAva\P01_May_Detector_SCH
+LICENSE=WebPack
+USER_INFO=176089449_0_0_231

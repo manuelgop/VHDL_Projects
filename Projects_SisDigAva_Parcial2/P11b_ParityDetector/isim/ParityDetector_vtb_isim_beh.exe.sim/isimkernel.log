@@ -1,0 +1,28 @@
+Command line:
+   ParityDetector_vtb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56734
+
+Thu Sep 12 07:03:26 2013
+
+
+ Elaboration Time: 0.483603 sec
+
+ Current Memory Usage: 841.15 Meg
+
+ Total Signals          : 4
+ Total Nets             : 9
+ Total Signal Drivers   : 2
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 369
+
+ Total Simulation Time: 0.483603 sec
+
+ Current Memory Usage: 841.15 Meg
+
+Thu Sep 12 07:03:52 2013
+

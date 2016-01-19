@@ -1,0 +1,28 @@
+Command line:
+   Gates_vtf_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64268
+
+Thu Sep 05 16:15:38 2013
+
+
+ Elaboration Time: 0.592804 sec
+
+ Current Memory Usage: 841.331 Meg
+
+ Total Signals          : 17
+ Total Nets             : 16
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 98
+
+ Total Simulation Time: 0.608404 sec
+
+ Current Memory Usage: 1156.43 Meg
+
+Thu Sep 05 16:16:10 2013
+

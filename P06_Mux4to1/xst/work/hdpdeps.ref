@@ -1,0 +1,6 @@
+V3 3
+FL C:/Projectos_VHDL/P06_Mux4to1/Mux4to1.vhd 2013/08/28.18:57:08 P.68d
+EN work/Mux4to1 1378255839 FL C:/Projectos_VHDL/P06_Mux4to1/Mux4to1.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/Mux4to1/Behavioral 1378255840 \
+      FL C:/Projectos_VHDL/P06_Mux4to1/Mux4to1.vhd EN work/Mux4to1 1378255839

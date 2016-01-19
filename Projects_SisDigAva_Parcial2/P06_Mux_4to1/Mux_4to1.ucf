@@ -1,0 +1,15 @@
+
+# Pin assignments
+
+# Input pins I
+NET "I<0>" LOC = M5;
+NET "I<1>" LOC = M5;
+NET "I<2>" LOC = M5;
+NET "I<3>" LOC = M5;
+
+# Selection lines Sel
+NET "Sel<1>" LOC = M5;
+NET "Sel<0>" LOC = M5;
+
+# Output line
+NET "Y" LOC = M5;

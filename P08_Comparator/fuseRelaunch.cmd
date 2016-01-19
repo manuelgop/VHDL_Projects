@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Projectos_VHDL/P08_Comparator/Comparative_vtb_isim_beh.exe" -prj "C:/Projectos_VHDL/P08_Comparator/Comparative_vtb_beh.prj" "work.Comparative_vtb" 

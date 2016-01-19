@@ -1,0 +1,50 @@
+V3 31
+FL C:/Projectos_VHDL/Final_Timer/Clk1Hz.vhd 2013/12/02.21:01:59 P.68d
+EN work/Clk1Hz 1386049506 FL C:/Projectos_VHDL/Final_Timer/Clk1Hz.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/Clk1Hz/Behavioral 1386049507 \
+      FL C:/Projectos_VHDL/Final_Timer/Clk1Hz.vhd EN work/Clk1Hz 1386049506
+FL C:/Projectos_VHDL/Final_Timer/Cont0a3.vhd 2013/12/02.22:40:59 P.68d
+EN work/Cont0a3 1386049518 FL C:/Projectos_VHDL/Final_Timer/Cont0a3.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/Cont0a3/Behavioral 1386049519 \
+      FL C:/Projectos_VHDL/Final_Timer/Cont0a3.vhd EN work/Cont0a3 1386049518
+FL C:/Projectos_VHDL/Final_Timer/Cont0a99.vhd 2013/12/02.22:34:59 P.68d
+EN work/Cont0a99 1386049508 FL C:/Projectos_VHDL/Final_Timer/Cont0a99.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/Cont0a99/Behavioral 1386049509 \
+      FL C:/Projectos_VHDL/Final_Timer/Cont0a99.vhd EN work/Cont0a99 1386049508
+FL C:/Projectos_VHDL/Final_Timer/DecBCD7Seg.vhd 2013/12/02.21:47:36 P.68d
+EN work/DecBCD7Seg 1386049516 FL C:/Projectos_VHDL/Final_Timer/DecBCD7Seg.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/DecBCD7Seg/Behavioral 1386049517 \
+      FL C:/Projectos_VHDL/Final_Timer/DecBCD7Seg.vhd EN work/DecBCD7Seg 1386049516
+FL C:/Projectos_VHDL/Final_Timer/Final_timer.vhd 2013/12/02.22:25:29 P.68d
+EN work/Final_timer 1386045316 FL C:/Projectos_VHDL/Final_Timer/Final_timer.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/Final_timer/Behavioral 1386045317 \
+      FL C:/Projectos_VHDL/Final_Timer/Final_timer.vhd EN work/Final_timer 1386045316 \
+      CP Clk1Hz CP Cont0a99 CP RefreshDisplay CP Mux4to1 CP SelAnodo CP DecBCD7Seg \
+      CP Cont0a3
+FL C:/Projectos_VHDL/Final_Timer/Mux4to1.vhd 2013/12/02.23:44:33 P.68d
+EN work/Mux4to1 1386049512 FL C:/Projectos_VHDL/Final_Timer/Mux4to1.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/Mux4to1/Behavioral 1386049513 \
+      FL C:/Projectos_VHDL/Final_Timer/Mux4to1.vhd EN work/Mux4to1 1386049512
+FL C:/Projectos_VHDL/Final_Timer/RefreshDisplay.vhd 2013/12/02.21:04:16 P.68d
+EN work/RefreshDisplay 1386049510 \
+      FL C:/Projectos_VHDL/Final_Timer/RefreshDisplay.vhd PB ieee/std_logic_1164 1370735607 \
+      PB ieee/std_logic_arith 1370735608 PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/RefreshDisplay/Behavioral 1386049511 \
+      FL C:/Projectos_VHDL/Final_Timer/RefreshDisplay.vhd EN work/RefreshDisplay 1386049510
+FL C:/Projectos_VHDL/Final_Timer/SelAnodo.vhd 2013/12/02.21:06:48 P.68d
+EN work/SelAnodo 1386049514 FL C:/Projectos_VHDL/Final_Timer/SelAnodo.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/SelAnodo/Behavioral 1386049515 \
+      FL C:/Projectos_VHDL/Final_Timer/SelAnodo.vhd EN work/SelAnodo 1386049514

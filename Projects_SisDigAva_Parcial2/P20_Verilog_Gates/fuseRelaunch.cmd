@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/Projects_SisDigAva/P20_Verilog_Gates/Gates_vtf_isim_beh.exe" -prj "D:/Projects_SisDigAva/P20_Verilog_Gates/Gates_vtf_beh.prj" "work.Gates_vtf" "work.glbl" 

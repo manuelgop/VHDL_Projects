@@ -1,0 +1,31 @@
+//! **************************************************************************
+// Written by: Map P.68d on Fri Oct 04 18:39:11 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Anode<0>" LOCATE = SITE "N6" LEVEL 1;
+COMP "Anode<1>" LOCATE = SITE "M6" LEVEL 1;
+COMP "Anode<2>" LOCATE = SITE "M3" LEVEL 1;
+COMP "Anode<3>" LOCATE = SITE "N5" LEVEL 1;
+COMP "Clk100MHz" LOCATE = SITE "E3" LEVEL 1;
+COMP "Seg<0>" LOCATE = SITE "L3" LEVEL 1;
+COMP "Seg<1>" LOCATE = SITE "N1" LEVEL 1;
+COMP "Seg<2>" LOCATE = SITE "L5" LEVEL 1;
+COMP "Seg<3>" LOCATE = SITE "L4" LEVEL 1;
+COMP "Seg<4>" LOCATE = SITE "K3" LEVEL 1;
+COMP "Seg<5>" LOCATE = SITE "M2" LEVEL 1;
+COMP "Seg<6>" LOCATE = SITE "L6" LEVEL 1;
+COMP "Rst" LOCATE = SITE "E16" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "Clk_1Hz" BEL "FreqCounter_0" BEL "FreqCounter_1"
+        BEL "FreqCounter_2" BEL "FreqCounter_3" BEL "FreqCounter_4" BEL
+        "FreqCounter_5" BEL "FreqCounter_6" BEL "FreqCounter_7" BEL
+        "FreqCounter_8" BEL "FreqCounter_9" BEL "FreqCounter_10" BEL
+        "FreqCounter_11" BEL "FreqCounter_12" BEL "FreqCounter_13" BEL
+        "FreqCounter_14" BEL "FreqCounter_15" BEL "FreqCounter_16" BEL
+        "FreqCounter_17" BEL "FreqCounter_18" BEL "FreqCounter_19" BEL
+        "FreqCounter_20" BEL "FreqCounter_21" BEL "FreqCounter_22" BEL
+        "FreqCounter_23" BEL "FreqCounter_24" BEL "FreqCounter_25" BEL
+        "Clk100MHz_BUFGP/BUFG";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

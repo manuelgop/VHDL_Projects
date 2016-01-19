@@ -1,0 +1,6 @@
+V3 3
+FL C:/Projectos_VHDL/P16_Counter/Counters.vhd 2013/10/02.18:39:53 P.68d
+EN work/Counters 1380757197 FL C:/Projectos_VHDL/P16_Counter/Counters.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/Counters/Behavioral 1380757198 \
+      FL C:/Projectos_VHDL/P16_Counter/Counters.vhd EN work/Counters 1380757197

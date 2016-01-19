@@ -1,0 +1,29 @@
+Command line:
+   Grey_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56173
+
+Wed Oct 30 18:39:52 2013
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 680.518 Meg
+
+ Total Signals          : 6
+ Total Nets             : 9
+ Total Signal Drivers   : 3
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 3
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 369
+Total Line Count : 71
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 837.812 Meg
+
+Wed Oct 30 18:40:41 2013
+

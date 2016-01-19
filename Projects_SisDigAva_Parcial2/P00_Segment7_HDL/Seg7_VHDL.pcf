@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.68d on Tue Sep 03 11:50:41 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Dis<0>" LOCATE = SITE "M1" LEVEL 1;
+COMP "Dis<1>" LOCATE = SITE "L1" LEVEL 1;
+COMP "Dis<2>" LOCATE = SITE "N4" LEVEL 1;
+COMP "Dis<3>" LOCATE = SITE "N2" LEVEL 1;
+COMP "Dis<4>" LOCATE = SITE "N5" LEVEL 1;
+COMP "Dis<5>" LOCATE = SITE "M3" LEVEL 1;
+COMP "Dis<6>" LOCATE = SITE "M6" LEVEL 1;
+COMP "Dis<7>" LOCATE = SITE "N6" LEVEL 1;
+COMP "S<0>" LOCATE = SITE "L6" LEVEL 1;
+COMP "S<1>" LOCATE = SITE "M2" LEVEL 1;
+COMP "S<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "S<3>" LOCATE = SITE "L4" LEVEL 1;
+COMP "S<4>" LOCATE = SITE "L5" LEVEL 1;
+COMP "S<5>" LOCATE = SITE "N1" LEVEL 1;
+COMP "S<6>" LOCATE = SITE "L3" LEVEL 1;
+COMP "S<7>" LOCATE = SITE "M4" LEVEL 1;
+COMP "I<0>" LOCATE = SITE "U9" LEVEL 1;
+COMP "I<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "I<2>" LOCATE = SITE "R7" LEVEL 1;
+COMP "I<3>" LOCATE = SITE "R6" LEVEL 1;
+SCHEMATIC END;
+

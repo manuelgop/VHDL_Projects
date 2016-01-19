@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Projects_SisDigAva/P08_Arithmetic/Arithmetic_vtb_isim_beh.exe" -prj "D:/Projects_SisDigAva/P08_Arithmetic/Arithmetic_vtb_beh.prj" "work.Arithmetic_vtb" 

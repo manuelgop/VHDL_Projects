@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Projects_SisDigAva/P16_Counters_vtb/Counter_vtb_isim_beh.exe" -prj "D:/Projects_SisDigAva/P16_Counters_vtb/Counter_vtb_beh.prj" "work.Counter_vtb" 

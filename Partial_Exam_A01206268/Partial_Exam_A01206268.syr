@@ -1,0 +1,308 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.43 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.44 secs
+ 
+--> Reading design: Partial_Exam_A01206268.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Partial_Exam_A01206268.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Partial_Exam_A01206268"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Partial_Exam_A01206268
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Projectos_VHDL\Partial_Exam_A01206268\Partial_Exam_A01206268.vhd" into library work
+Parsing entity <Partial_Exam_A01206268>.
+Parsing architecture <Behavioral> of entity <partial_exam_a01206268>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Partial_Exam_A01206268> (architecture <Behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Partial_Exam_A01206268>.
+    Related source file is "C:\Projectos_VHDL\Partial_Exam_A01206268\Partial_Exam_A01206268.vhd".
+    Found 8-bit comparator greater for signal <B[7]_A[7]_LessThan_31_o> created at line 58
+    Found 8-bit comparator greater for signal <B[7]_C[7]_LessThan_34_o> created at line 58
+    Found 8-bit comparator greater for signal <A[7]_B[7]_LessThan_35_o> created at line 60
+    Found 8-bit comparator greater for signal <C[7]_A[7]_LessThan_36_o> created at line 60
+    Found 8-bit comparator greater for signal <C[7]_B[7]_LessThan_37_o> created at line 60
+    Found 8-bit comparator greater for signal <A[7]_C[7]_LessThan_38_o> created at line 60
+    Summary:
+	inferred   6 Comparator(s).
+	inferred   6 Multiplexer(s).
+Unit <Partial_Exam_A01206268> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Comparators                                          : 6
+ 8-bit comparator greater                              : 6
+# Multiplexers                                         : 6
+ 8-bit 2-to-1 multiplexer                              : 6
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Comparators                                          : 6
+ 8-bit comparator greater                              : 6
+# Multiplexers                                         : 6
+ 8-bit 2-to-1 multiplexer                              : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Partial_Exam_A01206268> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Partial_Exam_A01206268, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Partial_Exam_A01206268.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 54
+#      LUT4                        : 12
+#      LUT5                        : 36
+#      LUT6                        : 6
+# IO Buffers                       : 48
+#      IBUF                        : 24
+#      OBUF                        : 24
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   54  out of   9112     0%  
+    Number used as Logic:                54  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     54
+   Number with an unused Flip Flop:      54  out of     54   100%  
+   Number with an unused LUT:             0  out of     54     0%  
+   Number of fully used LUT-FF pairs:     0  out of     54     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          48
+ Number of bonded IOBs:                  48  out of    232    20%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 10.238ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3912 / 24
+-------------------------------------------------------------------------
+Delay:               10.238ns (Levels of Logic = 7)
+  Source:            B<2> (PAD)
+  Destination:       Small<7> (PAD)
+
+  Data Path: B<2> to Small<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.222   1.138  B_2_IBUF (B_2_IBUF)
+     LUT6:I0->O            1   0.203   0.827  B[7]_A[7]_LessThan_31_o2 (B[7]_A[7]_LessThan_31_o1)
+     LUT5:I1->O            1   0.203   0.808  B[7]_A[7]_LessThan_31_o1 (B[7]_A[7]_LessThan_31_o2)
+     LUT5:I2->O            4   0.205   0.931  B[7]_A[7]_LessThan_31_o21 (B[7]_A[7]_LessThan_31_o)
+     LUT4:I0->O            8   0.203   1.147  B[7]_C[7]_OR_7_o1 (B[7]_C[7]_OR_7_o)
+     LUT5:I0->O            1   0.203   0.579  Mmux_Small81 (Small_7_OBUF)
+     OBUF:I->O                 2.571          Small_7_OBUF (Small<7>)
+    ----------------------------------------
+    Total                     10.238ns (4.810ns logic, 5.428ns route)
+                                       (47.0% logic, 53.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.56 secs
+ 
+--> 
+
+Total memory usage is 251156 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

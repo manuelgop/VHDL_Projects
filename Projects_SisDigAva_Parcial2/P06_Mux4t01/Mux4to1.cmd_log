@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.xst" -ofn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Mux4to1.ucf -p xc3s100e-cp132-5 Mux4to1.ngc Mux4to1.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Mux4to1_map.ncd Mux4to1.ngd Mux4to1.pcf 
+par -w -intstyle ise -ol high -t 1 Mux4to1_map.ncd Mux4to1.ncd Mux4to1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Mux4to1.twx Mux4to1.ncd -o Mux4to1.twr Mux4to1.pcf -ucf Mux4to1.ucf 
+bitgen -intstyle ise -f Mux4to1.ut Mux4to1.ncd 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.xst" -ofn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.xst" -ofn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.xst" -ofn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.xst" -ofn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.xst" -ofn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.xst" -ofn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.xst" -ofn "D:/Projects_SisDigAva/P06_Mux4t01/Mux4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Mux4to1.ucf -p xc3s100e-cp132-5 Mux4to1.ngc Mux4to1.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Mux4to1_map.ncd Mux4to1.ngd Mux4to1.pcf 
+par -w -intstyle ise -ol high -t 1 Mux4to1_map.ncd Mux4to1.ncd Mux4to1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Mux4to1.twx Mux4to1.ncd -o Mux4to1.twr Mux4to1.pcf -ucf Mux4to1.ucf 

@@ -1,0 +1,133 @@
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.xst" -ofn "C:/Projectos_VHDL/SN74LS163A/sn74ls163a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sn74ls163a.ucf -p xc3s100e-cp132-5 sn74ls163a.ngc sn74ls163a.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o sn74ls163a_map.ncd sn74ls163a.ngd sn74ls163a.pcf 
+par -w -intstyle ise -ol high -t 1 sn74ls163a_map.ncd sn74ls163a.ncd sn74ls163a.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml sn74ls163a.twx sn74ls163a.ncd -o sn74ls163a.twr sn74ls163a.pcf -ucf sn74ls163a.ucf 
+bitgen -intstyle ise -f sn74ls163a.ut sn74ls163a.ncd 

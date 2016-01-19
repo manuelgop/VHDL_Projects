@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/ProySisDigAva/P22_Sniffer_FSM_Moore/Sniffer.xst" -ofn "D:/ProySisDigAva/P22_Sniffer_FSM_Moore/Sniffer.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P24_Sniffer_FSM_Moore/Sniffer.xst" -ofn "D:/Projects_SisDigAva/P24_Sniffer_FSM_Moore/Sniffer.syr" 
+xst -intstyle ise -ifn "D:/Projects_SisDigAva/P24_Sniffer_FSM_Moore/Sniffer.xst" -ofn "D:/Projects_SisDigAva/P24_Sniffer_FSM_Moore/Sniffer.syr" 
+xst -intstyle ise -ifn "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P24_Sniffer_FSM_Moore/Sniffer.xst" -ofn "C:/Projectos_VHDL/Projects_SisDigAva_Parcial2/P24_Sniffer_FSM_Moore/Sniffer.syr" 

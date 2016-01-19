@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Projectos_VHDL/ParityDetector/Parity_isim_beh.exe" -prj "C:/Projectos_VHDL/ParityDetector/Parity_beh.prj" "work.Parity" 

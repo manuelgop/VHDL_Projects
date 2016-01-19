@@ -1,0 +1,8 @@
+V3 3
+FL D:/Projects_SisDigAva/P02_Mayority_Detector_VHDL/Mayority_Detector.vhd 2013/08/21.11:30:05 P.68d
+EN work/Mayority_Detector 1377102612 \
+      FL D:/Projects_SisDigAva/P02_Mayority_Detector_VHDL/Mayority_Detector.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/Mayority_Detector/Mayority_Detector_Arch 1377102613 \
+      FL D:/Projects_SisDigAva/P02_Mayority_Detector_VHDL/Mayority_Detector.vhd \
+      EN work/Mayority_Detector 1377102612

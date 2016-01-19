@@ -1,0 +1,28 @@
+Command line:
+   Counter_vtb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62087
+
+Mon Oct 07 08:08:54 2013
+
+
+ Elaboration Time: 0.280801 sec
+
+ Current Memory Usage: 840.929 Meg
+
+ Total Signals          : 7
+ Total Nets             : 10
+ Total Signal Drivers   : 3
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 3
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 512
+
+ Total Simulation Time: 0.280801 sec
+
+ Current Memory Usage: 1156.03 Meg
+
+Mon Oct 07 08:09:41 2013
+

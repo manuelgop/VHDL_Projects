@@ -1,0 +1,8 @@
+vhdl work "SelAnodo.vhd"
+vhdl work "RefreshDisplay.vhd"
+vhdl work "Mux4to1.vhd"
+vhdl work "DecBCD7Seg.vhd"
+vhdl work "Cont0a99.vhd"
+vhdl work "Cont0a3.vhd"
+vhdl work "Clk1Hz.vhd"
+vhdl work "Final_timer.vhd"

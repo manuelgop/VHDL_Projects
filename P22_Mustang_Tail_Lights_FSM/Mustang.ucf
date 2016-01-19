@@ -1,0 +1,19 @@
+
+#RESET
+NET "RST" LOC = G12;
+#Clock
+Net "Clk100Mhz" LOC =B8;
+
+NET "Lturn" LOC = k3;
+NET "Rturn" LOC = P11;
+NET "hAZARD" LOC =L3;
+
+
+NET "Llights<2>" LOC =G1;
+NET "Llights<1>" LOC =P4;
+NET "Llights<0>" LOC =N4;
+
+NET "Rlights<2>" LOC =P7;
+NET "Rlights<1>" LOC =M11;
+NET "Rlights<0>" LOC =M5;
+

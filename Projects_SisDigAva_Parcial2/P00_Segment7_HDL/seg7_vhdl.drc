@@ -1,0 +1,8 @@
+Release 14.6 Drc P.68d (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Sep 03 11:53:08 2013
+
+drc -z Seg7_VHDL.ncd Seg7_VHDL.pcf
+
+DRC detected 0 errors and 0 warnings.

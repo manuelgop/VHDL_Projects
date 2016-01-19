@@ -1,0 +1,17 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "Clk100MHz" LOC = V10;
+NET "TC" LOC = U16;
+NET "Anode[3]" LOC = P17;
+NET "Anode[2]" LOC = P18;
+NET "Anode[1]" LOC = N15;
+NET "Anode[0]" LOC = N16;
+NET "DataIn[0]" LOC = N8;
+NET "DataIn[1]" LOC = U8;
+NET "DataIn[2]" LOC = V8;
+NET "DataIn[3]" LOC = T5;
+NET "Rst" LOC = T10;
+NET "nPE" LOC = T9;
+NET "CET" LOC = V9;
+NET "CEP" LOC = M8;
